@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 public class DynaArray {
     int[] result = new int[5];
     int count;
@@ -10,5 +12,9 @@ public class DynaArray {
             result = newArray;
         }
         result[count++] = value;
+    }
+
+    int[] toArray() {
+        return Arrays.copyOf(result, count);
     }
 }

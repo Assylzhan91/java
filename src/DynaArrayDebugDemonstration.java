@@ -11,7 +11,7 @@ public class DynaArrayDebugDemonstration {
         dynaArray.addPositiveNum(5);
         dynaArray.addPositiveNum(6);
 
-         System.out.println(Arrays.toString (dynaArray.result));
+        System.out.println(Arrays.toString (dynaArray.result));
         System.out.println(dynaArray.count);
     }
 }
