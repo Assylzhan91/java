@@ -1,4 +1,4 @@
 package somepackage.first;
 
-public class class1 {
+public class Class1 {
 }

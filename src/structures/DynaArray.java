@@ -1,12 +1,12 @@
-package somepackage;
+package structures;
 
 import java.util.Arrays;
 
 public class DynaArray {
-    int[] result = new int[5];
-    int count;
+    private int[] result = new int[5];
+    private int count;
 
-    void addPositiveNum( int  value) {
+    public void addPositiveNum( int  value) {
 
         if (count == result.length) {
             int[] newArray = new int[result.length * 2];
@@ -16,11 +16,11 @@ public class DynaArray {
         result[count++] = value;
     }
 
-    int[] toArray() {
+   public int[] toArray() {
         return Arrays.copyOf(result, count);
     }
 
-    String asString() {
+    public String  asString() {
         final StringBuilder stringBuilder = new StringBuilder().append('[');
         for (int i = 0; i < count; i++) {
             stringBuilder.append(result[i]);
