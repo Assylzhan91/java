@@ -16,6 +16,17 @@ public class DynaArray {
         result[count++] = value;
     }
 
+    public void addPositiveNum( int[] array) {
+        for (int value: array) {
+            addPositiveNum(value);
+        }
+    }
+    public void addPositiveNum( DynaArray dynaArray) {
+        for (int i = 0; i < dynaArray.count; i++) {
+            addPositiveNum(dynaArray.result[i]);
+        }
+    }
+
    public int[] toArray() {
         return Arrays.copyOf(result, count);
     }
