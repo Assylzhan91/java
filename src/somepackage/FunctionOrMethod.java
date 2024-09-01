@@ -1,3 +1,5 @@
+package somepackage;
+
 public class FunctionOrMethod {
     int value;
     void changeValue(){

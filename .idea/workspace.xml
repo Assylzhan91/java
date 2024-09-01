@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f8bfb8cc-4c5a-4594-9488-23620a892320" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynaArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynaArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynaArrayDebugDemonstration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynaArrayDebugDemonstration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DynaArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DynaArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/somepackage/DynaArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/DynaArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structures/DynaArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/DynaArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +51,10 @@
     &quot;Application.DynaArrayDebugDemonstration.executor&quot;: &quot;Run&quot;,
     &quot;Application.DynaArrayTest.executor&quot;: &quot;Run&quot;,
     &quot;Application.FunctionOrMethod.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaLang.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;lesson-0032&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;lesson-0065&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/asylzanbajmuratov/test-projects/java&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -61,21 +62,50 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;/Users/asylzanbajmuratov/test-projects/java/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.26464844&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3770115&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RunManager" selected="Application.DynaArrayTest">
     <configuration name="DynaArrayDebugDemonstration" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynaArrayDebugDemonstration" />
+      <option name="MAIN_CLASS_NAME" value="somepackage.DynaArrayDebugDemonstration" />
       <module name="java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="DynaArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DynaArrayTest" />
+      <option name="MAIN_CLASS_NAME" value="structures.DynaArrayTest" />
       <module name="java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JavaLang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="somepackage.JavaLang" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="somepackage.Solution" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="structures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -83,6 +113,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.DynaArrayTest" />
+        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.JavaLang" />
         <item itemvalue="Application.DynaArrayDebugDemonstration" />
       </list>
     </recent_temporary>
@@ -114,30 +146,38 @@
       <workItem from="1719328577404" duration="336000" />
       <workItem from="1719328928172" duration="14000" />
       <workItem from="1723391288286" duration="570000" />
+      <workItem from="1724916720822" duration="10855000" />
+      <workItem from="1725165319461" duration="3929000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Main.java</url>
+          <url>file://$PROJECT_DIR$/src/somepackage/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-    <watches-manager>
-      <configuration name="Application">
-        <watch expression="dynaArray.result[0]" />
-        <watch expression="dynaArray.result[1]" />
-        <watch expression="dynaArray.count" />
-        <watch expression="dynaArray.result[1]" />
-      </configuration>
-    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
