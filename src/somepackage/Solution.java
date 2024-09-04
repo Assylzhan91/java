@@ -17,7 +17,7 @@ public class Solution {
         DynaArray dynaArray = new DynaArray();
         for (int value : array) {
             if (value > 0) {
-                dynaArray.addPositiveNum( value);
+                dynaArray.add( value);
             }
         }
         return dynaArray;
