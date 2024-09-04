@@ -6,8 +6,7 @@ public class DynaArray {
     private int[] result = new int[5];
     private int count;
 
-    public void addPositiveNum( int  value) {
-
+    public void add( int  value) {
         if (count == result.length) {
             int[] newArray = new int[result.length * 2];
             System.arraycopy(result, 0, newArray, 0, result.length);
@@ -16,15 +15,21 @@ public class DynaArray {
         result[count++] = value;
     }
 
-    public void addPositiveNum( int[] array) {
-        for (int value: array) {
-            addPositiveNum(value);
-        }
+    public void add( int[] array) {
+        add(array, array.length);
     }
-    public void addPositiveNum( DynaArray dynaArray) {
-        for (int i = 0; i < dynaArray.count; i++) {
-            addPositiveNum(dynaArray.result[i]);
+    public void add( DynaArray dynaArray) {
+        add(dynaArray.result, dynaArray.count);
+    }
+
+    public void add(int[] array, int length) {
+        if (result.length - count < length) {
+            int[] newArray = new int[result.length * 2];
+            System.arraycopy(result, 0, newArray, 0, result.length);
+            result = newArray;
         }
+        System.arraycopy(array, 0, result, count, length);
+        count += length;
     }
 
    public int[] toArray() {
