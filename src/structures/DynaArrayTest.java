@@ -6,7 +6,7 @@ class DynaArrayTest {
     public static void main(String[] args) {
         DynaArray dynaArray1 = new DynaArray();
         DynaArray dynaArray2 = new DynaArray();
-        System.out.print("dynaArray1: ");
+        System.out.println("dynaArray1: ");
         dynaArray1.add(-23);
         System.out.print(Arrays.toString(dynaArray1.toArray()) + " ");
         System.out.println();
