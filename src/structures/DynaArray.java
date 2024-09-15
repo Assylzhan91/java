@@ -11,7 +11,10 @@ public class DynaArray {
     public DynaArray(){
         result = new int[10];
         UseConstructorOrNot useConstructor1 = new UseConstructorOrNot();
+    }
 
+    public DynaArray(int size){
+        result = new int[size];
     }
 
     public void add( int  value) {
