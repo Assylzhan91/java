@@ -1,5 +1,7 @@
 package structures;
 
+import somepackage.UseConstructorOrNot;
+
 import java.util.Arrays;
 
 public class DynaArray {
@@ -8,6 +10,8 @@ public class DynaArray {
 
     public DynaArray(){
         result = new int[10];
+        UseConstructorOrNot useConstructor1 = new UseConstructorOrNot();
+
     }
 
     public void add( int  value) {
