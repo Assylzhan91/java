@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f8bfb8cc-4c5a-4594-9488-23620a892320" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structures/DynaArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/DynaArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structures/DynaArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/DynaArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +53,7 @@
     "Application.JavaLang.executor": "Run",
     "Application.Solution.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "lesson-0068",
+    "git-widget-placeholder": "lesson-0069",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/asylzanbajmuratov/test-projects/java",
     "node.js.detected.package.eslint": "true",
@@ -65,7 +65,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.26464844",
     "project.structure.side.proportion": "0.3770115",
-    "settings.editor.selected.configurable": "project.propCompiler",
+    "settings.editor.selected.configurable": "ml.llm.AIAssistantPromptsLibrary",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -150,6 +150,8 @@
       <workItem from="1725165319461" duration="4902000" />
       <workItem from="1725180930668" duration="952000" />
       <workItem from="1725461266835" duration="3657000" />
+      <workItem from="1726242918369" duration="2221000" />
+      <workItem from="1726408939888" duration="922000" />
     </task>
     <servers />
   </component>

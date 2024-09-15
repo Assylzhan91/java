@@ -3,8 +3,12 @@ package structures;
 import java.util.Arrays;
 
 public class DynaArray {
-    private int[] result = new int[5];
+    private int[] result;
     private int count;
+
+    public DynaArray(){
+        result = new int[10];
+    }
 
     public void add( int  value) {
         if (count == result.length) {
