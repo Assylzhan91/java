@@ -9,11 +9,9 @@ public class DynaArray {
     private int count;
 
     public DynaArray(){
-        result = new int[10];
+        result = new int[5];
         ThisUsage thisUsage1 = new ThisUsage();
         ThisUsage thisUsage2 = new ThisUsage(10);
-        System.out.println(Arrays.toString(thisUsage1.result));
-        System.out.println(Arrays.toString(thisUsage2.result));
     }
 
     public DynaArray(int size){
@@ -22,7 +20,7 @@ public class DynaArray {
 
     public void add( int  value) {
         if (count == result.length) {
-            grow(result.length * 2);
+            grow(result.length == 0 ?  5 : result.length * 2);
         }
         result[count++] = value;
     }
@@ -49,7 +47,7 @@ public class DynaArray {
     }
 
    public int[] toArray() {
-        return Arrays.copyOf(result, count);
+       return Arrays.copyOf(result, count);
     }
 
     public String  asString() {
