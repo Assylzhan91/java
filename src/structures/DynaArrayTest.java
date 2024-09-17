@@ -4,25 +4,23 @@ import java.util.Arrays;
 
 class DynaArrayTest {
     public static void main(String[] args) {
-        DynaArray dynaArray1 = new DynaArray();
+        DynaArray dynaArray1 = new DynaArray(10);
+        dynaArray1.add(3);
 
-        System.out.println("dynaArray1: ");
-        dynaArray1.add(-23);
-        System.out.print(Arrays.toString(dynaArray1.toArray()) + " ");
-        System.out.println();
-        System.out.print("dynaArray2: ");
 
-        dynaArray1.add(23);
-        dynaArray1.add(23);
-        dynaArray1.add(23);
-        dynaArray1.add(23);
-        dynaArray1.add(23);
+        System.out.println(Arrays.toString(dynaArray1.toArray()));
+
+        /*dynaArray1.add(0);
         dynaArray1.add(1);
-        dynaArray1.add(new int[] { 1, 2, 3 });
-        DynaArray dynaArray3 = new DynaArray();
-        dynaArray3.add(new int[] { 100, 200, 300 });
-        dynaArray3.add(1000);
-        dynaArray1.add(dynaArray3);
-        System.out.print(dynaArray1.asString());
+        dynaArray1.add(2);
+        dynaArray1.add(3);
+        dynaArray1.add(4);
+
+        int[] array1 = dynaArray1.toArray();
+        System.out.println(Arrays.toString(array1));
+        System.out.println(dynaArray1.asString());
+        array1[0] = -1;
+        System.out.println(Arrays.toString(array1));
+        System.out.println(dynaArray1.asString());*/
     }
 }
