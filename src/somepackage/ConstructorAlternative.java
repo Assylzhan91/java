@@ -1,7 +1,7 @@
 package somepackage;
 
 public class ConstructorAlternative {
-    private int value;
+    private final int value;
     public ConstructorAlternative() {
         value = 3;
     }
