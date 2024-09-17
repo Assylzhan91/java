@@ -5,8 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bfb8cc-4c5a-4594-9488-23620a892320" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/somepackage/ConstructorAlternative.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/somepackage/DefaultConstructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/somepackage/ThisUsage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/somepackage/ConstructorAlternative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/somepackage/ConstructorAlternative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structures/DynaArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/DynaArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structures/DynaArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/DynaArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,13 +51,15 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.ConstructorAlternative.executor": "Run",
     "Application.DynaArrayDebugDemonstration.executor": "Run",
     "Application.DynaArrayTest.executor": "Run",
     "Application.FunctionOrMethod.executor": "Run",
     "Application.JavaLang.executor": "Run",
     "Application.Solution.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "lesson-0071",
+    "create.test.in.the.same.root": "true",
+    "git-widget-placeholder": "lesson-0072",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/asylzanbajmuratov/test-projects/java",
     "node.js.detected.package.eslint": "true",
@@ -65,11 +71,11 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.26464844",
     "project.structure.side.proportion": "0.3770115",
-    "settings.editor.selected.configurable": "ml.llm.AIAssistantPromptsLibrary",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ConstructorAlternative">
+  <component name="RunManager" selected="Application.DynaArrayTest">
     <configuration name="ConstructorAlternative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="somepackage.ConstructorAlternative" />
       <module name="java" />
@@ -125,8 +131,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ConstructorAlternative" />
         <item itemvalue="Application.DynaArrayTest" />
+        <item itemvalue="Application.ConstructorAlternative" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.JavaLang" />
         <item itemvalue="Application.DynaArrayDebugDemonstration" />
@@ -187,7 +193,17 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
-    <expand />
+    <expand>
+      <path>
+        <item name="java" type="b2602c69:ProjectViewProjectNode" />
+        <item name="dir{file:///Users/asylzanbajmuratov/test-projects/java}" type="462c0819:PsiDirectoryNode" />
+      </path>
+      <path>
+        <item name="java" type="b2602c69:ProjectViewProjectNode" />
+        <item name="dir{file:///Users/asylzanbajmuratov/test-projects/java}" type="462c0819:PsiDirectoryNode" />
+        <item name="dir{file:///Users/asylzanbajmuratov/test-projects/java/src}" type="462c0819:PsiDirectoryNode" />
+      </path>
+    </expand>
     <select />
   </component>
 </project>
