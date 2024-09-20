@@ -93,4 +93,8 @@ public class DynaArray {
         return count;
     }
 
+
+    public boolean contains(int value) {
+        return  findIndex(value) != -1;
+    }
 }
