@@ -1,6 +1,4 @@
-package structures;
-
-import java.util.Arrays;
+package language.programming.java.structures;
 
 class DynaArrayTest {
     public static void main(String[] args) {

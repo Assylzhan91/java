@@ -1,4 +1,4 @@
-package somepackage;
+package language.programming.java.somepackage;
 
 import java.util.Arrays;
 

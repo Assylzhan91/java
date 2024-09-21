@@ -1,6 +1,6 @@
-package somepackage;
+package language.programming.java.somepackage;
 
-import structures.DynaArray;
+import language.programming.java.structures.DynaArray;
 
 public class Solution {
     public static void main(String[] args) {
