@@ -1,4 +1,4 @@
-package structures;
+package language.programming.java.structures;
 
 import java.util.Arrays;
 

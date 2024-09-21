@@ -1,4 +1,4 @@
-package somepackage;
+package language.programming.java.somepackage;
 
 public class GC {
     public static void main(String[] args) {

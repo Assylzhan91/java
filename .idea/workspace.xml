@@ -5,11 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bfb8cc-4c5a-4594-9488-23620a892320" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/NOTICE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NewClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TestSome.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structures/DynaArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/DynaArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structures/DynaArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/structures/DynaArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/somepackage/ConstructorAlternative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/ConstructorAlternative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/somepackage/DefaultConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/DefaultConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/somepackage/FullClassNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/FullClassNameTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/somepackage/FunctionOrMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/FunctionOrMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/somepackage/GC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/GC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/somepackage/JavaLang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/JavaLang.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/somepackage/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/somepackage/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/somepackage/ThisUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/ThisUsage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/somepackage/UseConstructorOrNot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/UseConstructorOrNot.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/somepackage/first/Class1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/first/Class1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/somepackage/package2/Class1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/package2/Class1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structures/DynaArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/structures/DynaArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/structures/DynaArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/structures/DynaArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +84,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.26464844",
     "project.structure.side.proportion": "0.3770115",
-    "settings.editor.selected.configurable": "build.tools",
+    "settings.editor.selected.configurable": "fileTemplates",
     "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
     "vue.rearranger.settings.migration": "true"
   },
@@ -84,11 +96,11 @@
 }]]></component>
   <component name="RunManager" selected="Application.DynaArrayTest">
     <configuration name="ConstructorAlternative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="somepackage.ConstructorAlternative" />
+      <option name="MAIN_CLASS_NAME" value="language.programming.java.somepackage.ConstructorAlternative" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="somepackage.*" />
+          <option name="PATTERN" value="language.programming.java.somepackage.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,18 +116,18 @@
       </method>
     </configuration>
     <configuration name="DynaArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="structures.DynaArrayTest" />
+      <option name="MAIN_CLASS_NAME" value="language.programming.java.structures.DynaArrayTest" />
       <module name="java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="JavaLang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="somepackage.JavaLang" />
+      <option name="MAIN_CLASS_NAME" value="language.programming.java.somepackage.JavaLang" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structures.*" />
+          <option name="PATTERN" value="language.programming.java.structures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +136,11 @@
       </method>
     </configuration>
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="somepackage.Solution" />
+      <option name="MAIN_CLASS_NAME" value="language.programming.java.somepackage.Solution" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="structures.*" />
+          <option name="PATTERN" value="language.programming.java.structures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -182,7 +194,7 @@
       <workItem from="1726581218175" duration="6792000" />
       <workItem from="1726595168843" duration="814000" />
       <workItem from="1726759904485" duration="10234000" />
-      <workItem from="1726841870901" duration="4659000" />
+      <workItem from="1726841870901" duration="8059000" />
     </task>
     <servers />
   </component>
@@ -207,7 +219,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/structures/DynaArrayTest.java</url>
+          <url>file://$PROJECT_DIR$/src/language/programming/java/structures/DynaArrayTest.java</url>
           <line>12</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
