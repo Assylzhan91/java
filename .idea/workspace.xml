@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bfb8cc-4c5a-4594-9488-23620a892320" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/NewClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestSome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/language/programming/java/structures/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/language/programming/java/structures/LinkedList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/somepackage/ConstructorAlternative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/ConstructorAlternative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/somepackage/DefaultConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/DefaultConstructor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/somepackage/FullClassNameTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/FullClassNameTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/somepackage/FunctionOrMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/FunctionOrMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/somepackage/GC.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/GC.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/somepackage/JavaLang.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/JavaLang.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/somepackage/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/somepackage/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/somepackage/ThisUsage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/ThisUsage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/somepackage/UseConstructorOrNot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/UseConstructorOrNot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/somepackage/first/Class1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/first/Class1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/somepackage/package2/Class1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/package2/Class1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structures/DynaArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/structures/DynaArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/structures/DynaArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/structures/DynaArrayTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +56,7 @@
     "Application.Solution.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "module-09-010",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/asylzanbajmuratov/test-projects/java",
     "node.js.detected.package.eslint": "true",
