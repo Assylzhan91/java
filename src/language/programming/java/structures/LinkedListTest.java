@@ -20,31 +20,20 @@
 
 package language.programming.java.structures;
 
+import java.util.Arrays;
+
 /**
  * @Assylzhan Baimuratov
  **/
-public class LinkedList {
+public class LinkedListTest {
+    public static void main(String[] args) {
+        LinkedList list = new LinkedList();
 
-    Item first;
-    Item last;
-
-    public void add(int value) {
-        Item item = new Item(value);
-        if (first == null) {
-            first = last = item;
-        }else {
-            last.next = item;
-            last = item;
+        for (int i = 1; i <= 3; i++) {
+            list.add(i);
         }
+
+        System.out.println(Arrays.toString(list.toArray()));
     }
 
-    public int[] toArray() {
-        DynaArray dynaArray = new DynaArray();
-        Item current = first;
-        while (current != null) {
-            dynaArray.add(current.value);
-            current = current.next;
-        }
-        return dynaArray.toArray();
-    }
 }
