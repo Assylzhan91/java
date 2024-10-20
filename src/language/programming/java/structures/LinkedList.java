@@ -47,4 +47,19 @@ public class LinkedList {
         }
         return dynaArray.toArray();
     }
+
+    public String asString(){
+        Item current = first;
+        final StringBuilder stringBuilder = new StringBuilder().append('[');
+        while (current != null) {
+            stringBuilder.append(current.value);
+            current = current.next;
+            if (current != null) {
+                stringBuilder.append(',').append(' ');
+            }
+        }
+
+        return stringBuilder.append(']').toString();
+    }
+
 }

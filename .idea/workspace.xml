@@ -53,11 +53,11 @@
     "Application.DynaArrayTest.executor": "Run",
     "Application.FunctionOrMethod.executor": "Run",
     "Application.JavaLang.executor": "Run",
-    "Application.LinkedListTest.executor": "Run",
+    "Application.LinkedListTest.executor": "Debug",
     "Application.Solution.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "module-09-014",
+    "git-widget-placeholder": "module-09-016",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/asylzanbajmuratov/test-projects/java",
     "node.js.detected.package.eslint": "true",
@@ -221,8 +221,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/language/programming/java/structures/LinkedListTest.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="13" />
+          <line>33</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
