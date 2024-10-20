@@ -19,7 +19,6 @@
  */
 
 package language.programming.java.structures;
-
 import java.util.Arrays;
 
 /**
@@ -32,6 +31,7 @@ public class LinkedListTest {
         for (int i = 1; i <= 3; i++) {
             list.add(i);
         }
+        System.out.println(list.asString());
 
         System.out.println(Arrays.toString(list.toArray()));
     }
