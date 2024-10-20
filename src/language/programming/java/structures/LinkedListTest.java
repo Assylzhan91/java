@@ -20,6 +20,8 @@
 
 package language.programming.java.structures;
 
+import java.util.Arrays;
+
 /**
  * @Assylzhan Baimuratov
  **/
@@ -31,7 +33,7 @@ public class LinkedListTest {
             list.add(i);
         }
 
-        System.out.println(list);
+        System.out.println(Arrays.toString(list.toArray()));
     }
 
 }

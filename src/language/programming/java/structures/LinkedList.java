@@ -37,4 +37,14 @@ public class LinkedList {
             last = item;
         }
     }
+
+    public int[] toArray() {
+        DynaArray dynaArray = new DynaArray();
+        Item current = first;
+        while (current != null) {
+            dynaArray.add(current.value);
+            current = current.next;
+        }
+        return dynaArray.toArray();
+    }
 }
