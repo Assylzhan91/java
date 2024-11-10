@@ -55,7 +55,7 @@ public class LinkedList {
             stringBuilder.append(current.value);
             current = current.next;
             if (current != null) {
-                stringBuilder.append(',').append(' ');
+                stringBuilder.append(", ");
             }
         }
 

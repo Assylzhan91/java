@@ -7,7 +7,6 @@
     <list default="true" id="f8bfb8cc-4c5a-4594-9488-23620a892320" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/language/programming/java/structures/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/structures/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/language/programming/java/structures/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/structures/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +52,7 @@
     "Application.DynaArrayTest.executor": "Run",
     "Application.FunctionOrMethod.executor": "Run",
     "Application.JavaLang.executor": "Run",
-    "Application.LinkedListTest.executor": "Debug",
+    "Application.LinkedListTest.executor": "Run",
     "Application.Solution.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "create.test.in.the.same.root": "true",
@@ -191,6 +190,9 @@
       <workItem from="1728541058802" duration="1699000" />
       <workItem from="1728812776347" duration="628000" />
       <workItem from="1729413515547" duration="3051000" />
+      <workItem from="1730911224674" duration="2599000" />
+      <workItem from="1731001670667" duration="735000" />
+      <workItem from="1731250533244" duration="2901000" />
     </task>
     <servers />
   </component>
@@ -218,11 +220,6 @@
           <url>file://$PROJECT_DIR$/src/language/programming/java/structures/DynaArrayTest.java</url>
           <line>12</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/language/programming/java/structures/LinkedListTest.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
