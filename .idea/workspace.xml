@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f8bfb8cc-4c5a-4594-9488-23620a892320" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/language/programming/java/structures/Item.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/language/programming/java/structures/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/structures/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -56,7 +57,7 @@
     "Application.Solution.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "module-09-016",
+    "git-widget-placeholder": "module-09-018",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/asylzanbajmuratov/test-projects/java",
     "node.js.detected.package.eslint": "true",
@@ -193,6 +194,9 @@
       <workItem from="1730911224674" duration="2599000" />
       <workItem from="1731001670667" duration="735000" />
       <workItem from="1731250533244" duration="2901000" />
+      <workItem from="1731298168573" duration="53000" />
+      <workItem from="1731431151433" duration="732000" />
+      <workItem from="1731518206334" duration="520000" />
     </task>
     <servers />
   </component>

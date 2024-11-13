@@ -62,4 +62,17 @@ public class LinkedList {
         return stringBuilder.append(']').toString();
     }
 
+    /**
+     * @Assylzhan Baimuratov
+     **/
+    private static class Item {
+        private int value;
+        private Item next;
+
+        Item(int value) {
+            this.value = value;
+        }
+    }
+
+
 }
