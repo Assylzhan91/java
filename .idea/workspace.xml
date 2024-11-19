@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f8bfb8cc-4c5a-4594-9488-23620a892320" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/language/programming/java/structures/Item.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/language/programming/java/structures/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/structures/LinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/language/programming/java/structures/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/structures/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,41 +46,41 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.ConstructorAlternative.executor": "Run",
-    "Application.DynaArrayDebugDemonstration.executor": "Run",
-    "Application.DynaArrayTest.executor": "Run",
-    "Application.FunctionOrMethod.executor": "Run",
-    "Application.JavaLang.executor": "Run",
-    "Application.LinkedListTest.executor": "Run",
-    "Application.Solution.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "module-09-018",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/asylzanbajmuratov/test-projects/java",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.stylelint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.stylelint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/asylzanbajmuratov/test-projects/java/src/Main.java",
-    "prettierjs.PrettierConfiguration.Package": "/usr/local/lib/node_modules/prettier",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.26464844",
-    "project.structure.side.proportion": "0.3770115",
-    "settings.editor.selected.configurable": "terminal",
-    "ts.external.directory.path": "/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.ConstructorAlternative.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DynaArrayDebugDemonstration.executor&quot;: &quot;Run&quot;,
+    &quot;Application.DynaArrayTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.FunctionOrMethod.executor&quot;: &quot;Run&quot;,
+    &quot;Application.JavaLang.executor&quot;: &quot;Run&quot;,
+    &quot;Application.LinkedListTest.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Solution.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;module-09-018&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/asylzanbajmuratov/test-projects/java&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.stylelint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.stylelint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/asylzanbajmuratov/test-projects/java/src/Main.java&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/usr/local/lib/node_modules/prettier&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.26464844&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.3770115&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Applications/IntelliJ IDEA.app/Contents/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql_aurora_aws"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql_aurora_aws&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.LinkedListTest">
     <configuration name="ConstructorAlternative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="language.programming.java.somepackage.ConstructorAlternative" />
@@ -196,7 +196,10 @@
       <workItem from="1731250533244" duration="2901000" />
       <workItem from="1731298168573" duration="53000" />
       <workItem from="1731431151433" duration="732000" />
-      <workItem from="1731518206334" duration="520000" />
+      <workItem from="1731518206334" duration="1372000" />
+      <workItem from="1731603127191" duration="49000" />
+      <workItem from="1731948896402" duration="847000" />
+      <workItem from="1732028476753" duration="726000" />
     </task>
     <servers />
   </component>

@@ -38,6 +38,10 @@ public class LinkedList {
         }
     }
 
+    public void clear(){
+        first = null;
+    }
+
     public int[] toArray() {
         DynaArray dynaArray = new DynaArray();
         Item current = first;
@@ -66,10 +70,10 @@ public class LinkedList {
      * @Assylzhan Baimuratov
      **/
     private static class Item {
-        private int value;
+        private final int value;
         private Item next;
 
-        Item(int value) {
+        private Item(int value) {
             this.value = value;
         }
     }
