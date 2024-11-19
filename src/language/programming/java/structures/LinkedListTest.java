@@ -32,6 +32,12 @@ public class LinkedListTest {
             list.add(i);
         }
         System.out.println(list.asString());
+        list.clear();
+        System.out.println(list.asString());
+        for (int i = 1; i <= 5; i++) {
+            list.add(i);
+        }
+        System.out.println(list.asString());
 
         System.out.println(Arrays.toString(list.toArray()));
     }
