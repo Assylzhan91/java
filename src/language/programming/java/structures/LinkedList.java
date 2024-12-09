@@ -32,14 +32,14 @@ public class LinkedList {
         Item item = new Item(value);
         if (first == null) {
             first = last = item;
-        }else {
+        } else {
             last.next = item;
             last = item;
         }
     }
 
-    public void clear(){
-        first = null;
+    public void clear() {
+        first = last = null;
     }
 
     public int[] toArray() {
@@ -52,7 +52,7 @@ public class LinkedList {
         return dynaArray.toArray();
     }
 
-    public String asString(){
+    public String asString() {
         Item current = first;
         final StringBuilder stringBuilder = new StringBuilder().append('[');
         while (current != null) {
