@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bfb8cc-4c5a-4594-9488-23620a892320" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/language/programming/java/structures/ObjectDynaArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/language/programming/java/structures/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/structures/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/language/programming/java/structures/LinkedListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/structures/LinkedListTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,10 +54,11 @@
     "Application.GCExampleTest.executor": "Run",
     "Application.JavaLang.executor": "Run",
     "Application.LinkedListTest.executor": "Debug",
+    "Application.ObjectDynaArray.executor": "Debug",
     "Application.Solution.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "module-09-026",
+    "git-widget-placeholder": "module-09-028",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/asylzanbajmuratov/test-projects/java",
     "node.js.detected.package.eslint": "true",
@@ -82,7 +82,7 @@
     ]
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LinkedListTest">
+  <component name="RunManager" selected="Application.ObjectDynaArray">
     <configuration name="ConstructorAlternative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="language.programming.java.somepackage.ConstructorAlternative" />
       <module name="java" />
@@ -129,8 +129,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="language.programming.java.somepackage.Solution" />
+    <configuration name="ObjectDynaArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="language.programming.java.structures.ObjectDynaArray" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectDynaArray" />
         <item itemvalue="Application.LinkedListTest" />
         <item itemvalue="Application.GCExampleTest" />
         <item itemvalue="Application.DynaArrayTest" />
         <item itemvalue="Application.ConstructorAlternative" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -201,6 +201,7 @@
       <workItem from="1731603127191" duration="49000" />
       <workItem from="1731948896402" duration="847000" />
       <workItem from="1732028476753" duration="2561000" />
+      <workItem from="1733841194193" duration="1189000" />
     </task>
     <servers />
   </component>
@@ -233,6 +234,11 @@
           <url>file://$PROJECT_DIR$/src/language/programming/java/structures/LinkedListTest.java</url>
           <line>35</line>
           <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/language/programming/java/structures/ObjectDynaArray.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="25" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
