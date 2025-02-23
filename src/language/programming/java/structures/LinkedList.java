@@ -101,6 +101,17 @@ public class LinkedList {
         return null;
     }
 
+    public int size() {
+        int count = 0;
+        Item current = first;
+
+        while (current != null) {
+            current = current.next;
+            count++;
+        }
+        return count;
+    }
+
     /**
      * @Assylzhan Baimuratov
      **/

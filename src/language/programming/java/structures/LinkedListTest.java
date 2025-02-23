@@ -29,36 +29,12 @@ public class LinkedListTest {
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
 
-        for (int i = 1; i <= 3; i++) {
+        for (int i = 0; i <= 3; i++) {
             list.add(i);
         }
         System.out.println(list.asString());
-        list.isRemoved(3);
-        // [0, 1, 2, 3]
-        System.out.println(list.asString());
-
-        list.isRemoved(0);
-        // [1, 2, 3]
-        System.out.println(list.asString());
-
-        list.isRemoved(2);
-        // [1, 3]
-        System.out.println(list.asString());
-
-        list.isRemoved(1);
-        // [3]
-        System.out.println(list.asString());
-
-        list.isRemoved(3);
-        //[]
-        System.out.println(list.asString());
-        ///////////////////////////////////////////
-        list.add(0);
-        list.add(1);
-
-        list.isRemoved(1);
-        // [0]
-        System.out.println(list.asString());
+        list.size();
+        System.out.println(list.size());
     }
 
 }
