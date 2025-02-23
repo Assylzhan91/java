@@ -28,12 +28,14 @@ import java.util.Arrays;
 public class LinkedListTest {
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
-
-        for (int i = 0; i <= 3; i++) {
+        list.add(1);
+        for (int i = 0; i <= 1; i++) {
             list.add(i);
         }
         System.out.println(list.asString());
-        list.size();
+        System.out.println(list.size());
+        list.isRemoved(0);
+        System.out.println(list.asString());
         System.out.println(list.size());
     }
 

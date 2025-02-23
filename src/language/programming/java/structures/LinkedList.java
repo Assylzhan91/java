@@ -27,6 +27,7 @@ public class LinkedList {
 
     Item first;
     Item last;
+    private int count = 0;
 
     public void add(int value) {
         Item item = new Item(value);
@@ -36,10 +37,12 @@ public class LinkedList {
             last.next = item;
             last = item;
         }
+        count++;
     }
 
     public void clear() {
         first = last = null;
+        count = 0;
     }
 
     public int[] toArray() {
@@ -81,6 +84,7 @@ public class LinkedList {
                     last = pair.previous;
                 }
             }
+            count--;
             return true;
         }
 
@@ -102,13 +106,6 @@ public class LinkedList {
     }
 
     public int size() {
-        int count = 0;
-        Item current = first;
-
-        while (current != null) {
-            current = current.next;
-            count++;
-        }
         return count;
     }
 
