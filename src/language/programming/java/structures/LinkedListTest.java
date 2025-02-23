@@ -29,14 +29,14 @@ public class LinkedListTest {
     public static void main(String[] args) {
         LinkedList list = new LinkedList();
         list.add(1);
-        for (int i = 0; i <= 1; i++) {
+        for (int i = 0; i <= 3; i++) {
             list.add(i);
         }
-        System.out.println(list.asString());
-        System.out.println(list.size());
-        list.isRemoved(0);
-        System.out.println(list.asString());
-        System.out.println(list.size());
+        System.out.println(list.contains(0));
+        System.out.println(list.contains(2));
+
+        System.out.println(list.contains(100));
+        System.out.println(list.contains(-3));
     }
 
 }
