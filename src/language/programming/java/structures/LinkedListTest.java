@@ -33,14 +33,32 @@ public class LinkedListTest {
             list.add(i);
         }
         System.out.println(list.asString());
-        list.clear();
-        System.out.println(list.asString());
-        for (int i = 1; i <= 5; i++) {
-            list.add(i);
-        }
+        list.isRemoved(3);
+        // [0, 1, 2, 3]
         System.out.println(list.asString());
 
-        System.out.println(Arrays.toString(list.toArray()));
+        list.isRemoved(0);
+        // [1, 2, 3]
+        System.out.println(list.asString());
+
+        list.isRemoved(2);
+        // [1, 3]
+        System.out.println(list.asString());
+
+        list.isRemoved(1);
+        // [3]
+        System.out.println(list.asString());
+
+        list.isRemoved(3);
+        //[]
+        System.out.println(list.asString());
+        ///////////////////////////////////////////
+        list.add(0);
+        list.add(1);
+
+        list.isRemoved(1);
+        // [0]
+        System.out.println(list.asString());
     }
 
 }
