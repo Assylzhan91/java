@@ -109,6 +109,10 @@ public class LinkedList {
         return count;
     }
 
+    public boolean contains(int value) {
+       return findPair(value) != null;
+    }
+
     /**
      * @Assylzhan Baimuratov
      **/
