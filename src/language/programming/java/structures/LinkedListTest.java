@@ -27,16 +27,15 @@ import java.util.Arrays;
  **/
 public class LinkedListTest {
     public static void main(String[] args) {
-        LinkedList list = new LinkedList();
-        list.add(1);
-        for (int i = 0; i <= 3; i++) {
-            list.add(i);
-        }
-        System.out.println(list.contains(0));
-        System.out.println(list.contains(2));
+        DynaArray dynaArray = new DynaArray();
+        int[] array = {0, 1, 2, 3, 4};
+        dynaArray.add(array);
 
-        System.out.println(list.contains(100));
-        System.out.println(list.contains(-3));
+        LinkedList list = new LinkedList();
+        list.add(array);
+        list.add(dynaArray);
+
+        System.out.println(list.asString());
     }
 
 }

@@ -59,7 +59,7 @@
     "Application.Solution.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "module-09-035",
+    "git-widget-placeholder": "lesson-0037",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/asylzanbajmuratov/test-projects/java",
     "node.js.detected.package.eslint": "true",
@@ -215,6 +215,7 @@
       <workItem from="1740060636400" duration="36000" />
       <workItem from="1740069888403" duration="900000" />
       <workItem from="1740315290282" duration="2626000" />
+      <workItem from="1740414084266" duration="1855000" />
     </task>
     <servers />
   </component>
@@ -242,11 +243,6 @@
           <url>file://$PROJECT_DIR$/src/language/programming/java/structures/DynaArrayTest.java</url>
           <line>12</line>
           <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/language/programming/java/structures/LinkedListTest.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

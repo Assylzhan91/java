@@ -113,6 +113,18 @@ public class LinkedList {
        return findPair(value) != null;
     }
 
+
+    public void add(DynaArray dynaArray) {
+        add(dynaArray.toArray());
+    }
+
+    public void add(int[] array) {
+        for (int i = 0; i < array.length; i++) {
+            add(array[i]);
+        }
+    }
+
+
     /**
      * @Assylzhan Baimuratov
      **/
