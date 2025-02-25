@@ -27,15 +27,14 @@ import java.util.Arrays;
  **/
 public class LinkedListTest {
     public static void main(String[] args) {
-        DynaArray dynaArray = new DynaArray();
-        int[] array = {0, 1, 2, 3, 4};
-        dynaArray.add(array);
-
         LinkedList list = new LinkedList();
-        list.add(array);
-        list.add(dynaArray);
+        list.add(new int[]{0, 1, 2, 3, 4});
 
-        System.out.println(list.asString());
+        DynaArray dynaArray = new DynaArray();
+
+        dynaArray.add(list);
+
+        System.out.println(dynaArray.asString());
     }
 
 }

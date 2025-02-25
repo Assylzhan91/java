@@ -37,6 +37,10 @@ public class DynaArray {
         count += length;
     }
 
+    public void add(LinkedList list) {
+        add(list.toArray());
+    }
+
     private void grow(int newLength) {
         int[] newArray = new int[newLength];
         System.arraycopy(result, 0, newArray, 0, result.length);
@@ -97,4 +101,6 @@ public class DynaArray {
     public boolean contains(int value) {
         return  findIndex(value) != -1;
     }
+
+
 }
