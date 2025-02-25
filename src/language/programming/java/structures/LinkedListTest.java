@@ -33,7 +33,6 @@ public class LinkedListTest {
         LinkedList list = new LinkedList();
         list.add(new int[]{1, 2, 3});
         list.add(secondList);
-        list.add(4);
 
         System.out.println(list.asString());
     }
