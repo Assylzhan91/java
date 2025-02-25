@@ -124,6 +124,19 @@ public class LinkedList {
         }
     }
 
+    public void add(LinkedList secondList) {
+        if (secondList.count > 0) {
+            if (first == null) {
+                first = secondList.first;
+            }else {
+                last.next = secondList.first;
+            }
+            last = secondList.last;
+            count += secondList.count;
+        }
+
+    }
+
 
     /**
      * @Assylzhan Baimuratov
