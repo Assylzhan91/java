@@ -1,10 +1,11 @@
 package language.programming.java.structures;
 
+import language.programming.java.somepackage.BaseDataStructure;
+
 import java.util.Arrays;
 
-public class DynaArray {
+public class DynaArray  extends BaseDataStructure {
     private int[] result;
-    private int count;
 
     public DynaArray() {
         result = new int[5];
@@ -92,11 +93,6 @@ public class DynaArray {
         }
         return -1;
     }
-
-    public int size(){
-        return count;
-    }
-
 
     public boolean contains(int value) {
         return  findIndex(value) != -1;

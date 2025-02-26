@@ -18,24 +18,15 @@
  *
  */
 
-package language.programming.java.structures;
-
-import java.util.Arrays;
+package language.programming.java.somepackage;
 
 /**
  * @Assylzhan Baimuratov
  **/
-public class LinkedListTest {
-    public static void main(String[] args) {
-        LinkedList secondList = new LinkedList();
-        secondList.add(new int[]{4, 5, 6});
+public class BaseDataStructure {
 
-        LinkedList list = new LinkedList();
-        list.add(new int[]{1, 2, 3});
-        list.add(secondList);
-
-        System.out.println(list.asString());
-        System.out.println(list.size());
+    protected int count;
+    public int size(){
+        return count;
     }
-
 }
