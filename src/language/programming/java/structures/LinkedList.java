@@ -41,6 +41,7 @@ public class LinkedList extends BaseDataStructure {
         count++;
     }
 
+    @Override
     public void clear() {
         first = last = null;
         count = 0;
