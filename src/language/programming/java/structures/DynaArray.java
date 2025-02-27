@@ -52,9 +52,6 @@ public class DynaArray  extends BaseDataStructure {
         return Arrays.copyOf(result, count);
     }
 
-    public void clear() {
-        count = 0;
-    }
 
     public String asString() {
         final StringBuilder stringBuilder = new StringBuilder().append('[');
