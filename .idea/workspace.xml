@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bfb8cc-4c5a-4594-9488-23620a892320" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/language/programming/java/module_10_inhertance_and_polymorphism/MethodInheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/temp/Launcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +57,7 @@
     "Application.Solution.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "module-10-007",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/asylzanbajmuratov/test-projects/java",
     "node.js.detected.package.eslint": "true",
