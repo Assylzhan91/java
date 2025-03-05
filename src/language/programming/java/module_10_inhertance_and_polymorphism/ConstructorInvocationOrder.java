@@ -29,10 +29,17 @@ public class ConstructorInvocationOrder {
         private Parent (){
             System.out.println("Parent.<init>()");
         }
+        private Parent (int num){
+            System.out.println("Parent.<init>() " + num);
+        }
+        private Parent (boolean value){
+            System.out.println("Parent.<init>() " + value);
+        }
     }
 
     private static class Child extends Parent {
         private Child (){
+            super (true);
             System.out.println("Child.<init>()");
         }
     }
