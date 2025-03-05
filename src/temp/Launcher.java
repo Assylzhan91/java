@@ -30,10 +30,15 @@ public class Launcher {
     }
 
     private static class Parent {
-
+       void method1(){
+            System.out.println("Parent");
+        }
     }
 
     private static class Child extends Parent {
+        @Override
+        void method1() {
 
+        }
     }
 }
