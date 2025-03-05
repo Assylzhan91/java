@@ -23,15 +23,13 @@ package temp;
 /**
  * @Assylzhan Baimuratov
  **/
-public class Launcher {
-
-    public static void main(String[] args) {
-        Parent parent = new Child();
-    }
-
+public class SuperMethod {
     private static class Parent {
-       void method1(){
-            System.out.println("Parent");
+        void method1 (){
+
+        }
+        void method2 (){
+
         }
     }
 
@@ -40,5 +38,17 @@ public class Launcher {
         void method1() {
 
         }
+
+
+        void method3() {
+        }
+    }
+
+    public static void main(String[] args) {
+        Child child = new Child();
+        child.method1();
+        child.method2();
+        child.method3();
+
     }
 }
