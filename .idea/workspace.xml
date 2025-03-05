@@ -59,11 +59,13 @@
     "Application.GCExampleTest.executor": "Run",
     "Application.JavaLang.executor": "Run",
     "Application.LinkedListTest.executor": "Run",
+    "Application.MethodInheritance.executor": "Run",
     "Application.ObjectDynaArray.executor": "Debug",
     "Application.Solution.executor": "Run",
+    "Application.SuperMethod.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "module-10-009",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/asylzanbajmuratov/test-projects/java",
     "node.js.detected.package.eslint": "true",
@@ -92,23 +94,10 @@
       <recent name="language.programming.java.structures" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MethodInheritance">
+  <component name="RunManager" selected="Application.SuperMethod">
     <configuration name="DynaArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="language.programming.java.structures.DynaArrayTest" />
       <module name="java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GCExampleTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="language.programming.java.somepackage.GCExampleTest" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="language.programming.java.somepackage.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -152,13 +141,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SuperMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="temp.SuperMethod" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="temp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SuperMethod" />
         <item itemvalue="Application.MethodInheritance" />
         <item itemvalue="Application.DynaArrayTest" />
         <item itemvalue="Application.LinkedListTest" />
         <item itemvalue="Application.ObjectDynaArray" />
-        <item itemvalue="Application.GCExampleTest" />
       </list>
     </recent_temporary>
   </component>
@@ -256,6 +258,21 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/temp/SuperMethod.java</url>
+          <line>43</line>
+          <properties class="temp.SuperMethod.Child" method="method3">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand>
