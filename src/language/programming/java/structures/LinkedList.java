@@ -44,7 +44,7 @@ public class LinkedList extends BaseDataStructure {
     @Override
     public void clear() {
         first = last = null;
-        count = 0;
+        super.clear();
     }
 
     public int[] toArray() {
