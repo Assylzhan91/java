@@ -26,7 +26,7 @@ package temp;
 public class SuperMethod {
     private static class Parent {
         void method1 (){
-
+            System.out.println("Parent");
         }
         void method2 (){
 
@@ -36,18 +36,20 @@ public class SuperMethod {
     private static class Child extends Parent {
         @Override
         void method1() {
-
+            System.out.println("Child");
+            super.method1();
         }
 
 
         void method3() {
+            method1();
+            System.out.println("method3");
         }
     }
 
     public static void main(String[] args) {
         Child child = new Child();
-        child.method1();
-        child.method2();
+        
         child.method3();
 
     }
