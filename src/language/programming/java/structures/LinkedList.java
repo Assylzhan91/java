@@ -25,7 +25,7 @@ import language.programming.java.somepackage.BaseDataStructure;
 /**
  * @Assylzhan Baimuratov
  **/
-public class LinkedList extends BaseDataStructure {
+public final class LinkedList extends BaseDataStructure {
 
     Item first;
     Item last;

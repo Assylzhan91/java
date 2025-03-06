@@ -26,11 +26,8 @@ package language.programming.java.somepackage;
 public class BaseDataStructure {
 
     protected int count;
-    public final int size(){
-        return count;
-    }
 
-    public void clear() {
-        count = 0;
-    }
+    public final int size(){return count;}
+
+    public void clear() {count = 0;}
 }
