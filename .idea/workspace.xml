@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bfb8cc-4c5a-4594-9488-23620a892320" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/language/programming/java/somepackage/BaseDataStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/somepackage/BaseDataStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/language/programming/java/module_10_inhertance_and_polymorphism/InheritanceAsReuseCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +58,7 @@
     "Application.DynaArrayTest.executor": "Run",
     "Application.FunctionOrMethod.executor": "Run",
     "Application.GCExampleTest.executor": "Run",
+    "Application.InheritanceAsReuseCode.executor": "Run",
     "Application.InvocationWithoutLocalVar.executor": "Run",
     "Application.JavaLang.executor": "Run",
     "Application.LinkedListTest.executor": "Run",
@@ -67,7 +69,7 @@
     "Application.SuperWithParams.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "module-10-023",
+    "git-widget-placeholder": "module-10-024",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/asylzanbajmuratov/test-projects/java",
     "node.js.detected.package.eslint": "true",
@@ -99,7 +101,7 @@
       <recent name="language.programming.java.module_10_inhertance_and_polymorphism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InvocationWithoutLocalVar">
+  <component name="RunManager" selected="Application.InheritanceAsReuseCode">
     <configuration name="ConstructorInvocationOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="language.programming.java.module_10_inhertance_and_polymorphism.ConstructorInvocationOrder" />
       <module name="java" />
@@ -113,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InvocationWithoutLocalVar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="language.programming.java.module_10_inhertance_and_polymorphism.InvocationWithoutLocalVar" />
+    <configuration name="InheritanceAsReuseCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="language.programming.java.module_10_inhertance_and_polymorphism.InheritanceAsReuseCode" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
@@ -126,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodInheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="language.programming.java.module_10_inhertance_and_polymorphism.MethodInheritance" />
+    <configuration name="InvocationWithoutLocalVar" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="language.programming.java.module_10_inhertance_and_polymorphism.InvocationWithoutLocalVar" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
@@ -167,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InheritanceAsReuseCode" />
         <item itemvalue="Application.InvocationWithoutLocalVar" />
         <item itemvalue="Application.SuperWithParams" />
         <item itemvalue="Application.ConstructorInvocationOrder" />
         <item itemvalue="Application.SuperMethod" />
-        <item itemvalue="Application.MethodInheritance" />
       </list>
     </recent_temporary>
   </component>
@@ -238,6 +240,8 @@
       <workItem from="1740678206308" duration="9000" />
       <workItem from="1741145667350" duration="602000" />
       <workItem from="1741160301639" duration="660000" />
+      <workItem from="1741364678727" duration="1339000" />
+      <workItem from="1741437355922" duration="1400000" />
     </task>
     <servers />
   </component>
