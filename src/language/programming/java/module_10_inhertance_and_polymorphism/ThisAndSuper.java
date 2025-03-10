@@ -18,16 +18,27 @@
  *
  */
 
-package language.programming.java.somepackage;
+package language.programming.java.module_10_inhertance_and_polymorphism;
 
 /**
  * @Assylzhan Baimuratov
  **/
-public class BaseDataStructure {
+public class ThisAndSuper {
+    private static class Parent{
+        public Parent() {
+            this(12);
+        }
+        public Parent(int i) {
+        }
+    }
 
-    protected int count;
+    private static class Child extends Parent{
 
-    public final int size(){return count;}
+        public Child() {
+            this(12);
+        }
 
-    public void clear() {count = 0;}
+        public Child(int i) {}
+    }
+
 }
