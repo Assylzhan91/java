@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bfb8cc-4c5a-4594-9488-23620a892320" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/language/programming/java/module_10_inhertance_and_polymorphism/CompositionInsteadOfInheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/language/programming/java/module_10_inhertance_and_polymorphism/SingleParentRule.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +70,7 @@
     "Application.SuperWithParams.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "module-10-024",
+    "git-widget-placeholder": "module-10-026",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/asylzanbajmuratov/test-projects/java",
     "node.js.detected.package.eslint": "true",
@@ -243,7 +243,7 @@
       <workItem from="1741160301639" duration="660000" />
       <workItem from="1741364678727" duration="1339000" />
       <workItem from="1741437355922" duration="2571000" />
-      <workItem from="1741606575438" duration="304000" />
+      <workItem from="1741606575438" duration="1423000" />
     </task>
     <servers />
   </component>
