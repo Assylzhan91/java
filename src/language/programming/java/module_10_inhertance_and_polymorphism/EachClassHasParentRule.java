@@ -33,6 +33,9 @@ public class EachClassHasParentRule /*extends Object*/{
     }
 
     public static void main(String[] args) {
-        Child child = new Child();
+        Class claSS = new Child().getClass();
+        System.out.println(claSS.getName());
+        System.out.println(claSS.getSimpleName());
+
     }
 }
