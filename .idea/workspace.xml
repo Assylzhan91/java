@@ -57,6 +57,7 @@
     "Application.ConstructorInvocationOrder.executor": "Run",
     "Application.DynaArrayDebugDemonstration.executor": "Run",
     "Application.DynaArrayTest.executor": "Run",
+    "Application.EachClassHasParentRule.executor": "Run",
     "Application.FunctionOrMethod.executor": "Run",
     "Application.GCExampleTest.executor": "Run",
     "Application.InheritanceAsReuseCode.executor": "Run",
@@ -70,7 +71,7 @@
     "Application.SuperWithParams.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "module-10-027",
+    "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/asylzanbajmuratov/test-projects/java",
     "node.js.detected.package.eslint": "true",
@@ -102,7 +103,7 @@
       <recent name="language.programming.java.module_10_inhertance_and_polymorphism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CompositionInsteadOfInheritance">
+  <component name="RunManager" selected="Application.EachClassHasParentRule">
     <configuration name="CompositionInsteadOfInheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="language.programming.java.module_10_inhertance_and_polymorphism.CompositionInsteadOfInheritance" />
       <module name="java" />
@@ -116,8 +117,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConstructorInvocationOrder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="language.programming.java.module_10_inhertance_and_polymorphism.ConstructorInvocationOrder" />
+    <configuration name="EachClassHasParentRule" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="language.programming.java.module_10_inhertance_and_polymorphism.EachClassHasParentRule" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
@@ -170,11 +171,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EachClassHasParentRule" />
         <item itemvalue="Application.CompositionInsteadOfInheritance" />
         <item itemvalue="Application.InheritanceAsReuseCode" />
         <item itemvalue="Application.InvocationWithoutLocalVar" />
         <item itemvalue="Application.SuperWithParams" />
-        <item itemvalue="Application.ConstructorInvocationOrder" />
       </list>
     </recent_temporary>
   </component>
