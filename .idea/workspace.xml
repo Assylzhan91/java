@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bfb8cc-4c5a-4594-9488-23620a892320" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/language/programming/java/module_10_inhertance_and_polymorphism/EachClassHasParentRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/module_10_inhertance_and_polymorphism/EachClassHasParentRule.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/language/programming/java/module_10_inhertance_and_polymorphism/ObjectHasCodeAndEquals.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +70,7 @@
     "Application.SuperWithParams.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "module-10-032",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/asylzanbajmuratov/test-projects/java",
     "node.js.detected.package.eslint": "true",
@@ -103,7 +102,7 @@
       <recent name="language.programming.java.module_10_inhertance_and_polymorphism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.EachClassHasParentRule">
+  <component name="RunManager" selected="Application.ObjectHasCodeAndEquals">
     <configuration name="CompositionInsteadOfInheritance" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="language.programming.java.module_10_inhertance_and_polymorphism.CompositionInsteadOfInheritance" />
       <module name="java" />
@@ -156,8 +155,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SuperWithParams" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="language.programming.java.module_10_inhertance_and_polymorphism.SuperWithParams" />
+    <configuration name="ObjectHasCodeAndEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="language.programming.java.module_10_inhertance_and_polymorphism.ObjectHasCodeAndEquals" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
@@ -171,11 +170,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectHasCodeAndEquals" />
         <item itemvalue="Application.EachClassHasParentRule" />
         <item itemvalue="Application.CompositionInsteadOfInheritance" />
         <item itemvalue="Application.InheritanceAsReuseCode" />
         <item itemvalue="Application.InvocationWithoutLocalVar" />
-        <item itemvalue="Application.SuperWithParams" />
       </list>
     </recent_temporary>
   </component>
@@ -246,6 +245,7 @@
       <workItem from="1741437355922" duration="2571000" />
       <workItem from="1741606575438" duration="1423000" />
       <workItem from="1741706070634" duration="732000" />
+      <workItem from="1741883403190" duration="793000" />
     </task>
     <servers />
   </component>
