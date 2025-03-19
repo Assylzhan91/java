@@ -36,7 +36,7 @@ public class GCExampleTest {
         for (int i = 0; i <= 5; i++) {
             list.add(i);
         }
-        return list.asString();
+        return list.toString();
     }
 
 

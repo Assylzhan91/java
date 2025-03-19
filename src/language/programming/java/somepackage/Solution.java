@@ -7,7 +7,7 @@ public class Solution {
         int[] array = {1, 2, -3, 5, -2, 12, -4, 12, 54, 67, 91, 43, 14};
         DynaArray result = getPositiveNumbers(array);
 
-        System.out.println(result.asString());
+        System.out.println(result);
         String str = "Hello";
         System.out.println(str);
 

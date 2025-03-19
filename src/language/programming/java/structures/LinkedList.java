@@ -59,7 +59,8 @@ public final class LinkedList extends BaseDataStructure {
         return result;
     }
 
-    public String asString() {
+    @Override
+    public String toString() {
         Item current = first;
         final StringBuilder stringBuilder = new StringBuilder().append('[');
         while (current != null) {
