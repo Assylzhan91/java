@@ -36,7 +36,8 @@ public class ObjectHasCodeAndEquals {
         System.out.println(o4.toString());
     }
 
-    @Override public String toString(){
+    @Override
+    public String toString(){
         return "Hello World";
     }
 }
