@@ -34,7 +34,7 @@ public class LinkedListTest {
         list.add(new int[]{1, 2, 3});
         list.add(secondList);
 
-        System.out.println(list.asString());
+        System.out.println(list);
         System.out.println(list.size());
     }
 
