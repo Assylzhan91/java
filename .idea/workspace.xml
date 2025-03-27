@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bfb8cc-4c5a-4594-9488-23620a892320" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/module_11_polymorphism/WhichMethodIsInvoked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module_11_polymorphism/MethodSearchAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +65,7 @@
     "Application.JavaLang.executor": "Run",
     "Application.LinkedListTest.executor": "Run",
     "Application.MethodInheritance.executor": "Run",
+    "Application.MethodSearchAlgorithm.executor": "Run",
     "Application.ObjectClone.executor": "Run",
     "Application.ObjectDynaArray.executor": "Debug",
     "Application.ObjectHasCodeAndEquals.executor": "Run",
@@ -78,7 +79,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "module-11-003",
+    "git-widget-placeholder": "module-11-004",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/asylzanbajmuratov/test-projects/java",
     "node.js.detected.package.eslint": "true",
@@ -110,7 +111,7 @@
       <recent name="language.programming.java.module_10_inhertance_and_polymorphism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WhichMethodIsInvoked">
+  <component name="RunManager" selected="Application.MethodSearchAlgorithm">
     <configuration name="DynaArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="language.programming.java.structures.DynaArrayTest" />
       <module name="java" />
@@ -137,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectHasCodeAndEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="language.programming.java.module_10_inhertance_and_polymorphism.ObjectHasCodeAndEquals" />
+    <configuration name="MethodSearchAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="module_11_polymorphism.MethodSearchAlgorithm" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="language.programming.java.module_10_inhertance_and_polymorphism.*" />
+          <option name="PATTERN" value="module_11_polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -178,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodSearchAlgorithm" />
         <item itemvalue="Application.WhichMethodIsInvoked" />
         <item itemvalue="Application.LinkedListTest" />
         <item itemvalue="Application.DynaArrayTest" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.ObjectHasCodeAndEquals" />
       </list>
     </recent_temporary>
   </component>
@@ -256,7 +257,7 @@
       <workItem from="1741883403190" duration="793000" />
       <workItem from="1742398666851" duration="1894000" />
       <workItem from="1742405291000" duration="1896000" />
-      <workItem from="1743090503762" duration="833000" />
+      <workItem from="1743090503762" duration="1588000" />
     </task>
     <servers />
   </component>
