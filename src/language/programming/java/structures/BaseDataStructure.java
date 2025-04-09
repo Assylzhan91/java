@@ -18,7 +18,7 @@
  *
  */
 
-package language.programming.java.somepackage;
+package language.programming.java.structures;
 
 /**
  * @Assylzhan Baimuratov
@@ -30,4 +30,22 @@ public class BaseDataStructure {
     public final int size(){return count;}
 
     public void clear() {count = 0;}
+
+    public void add(int value) {
+
+    }
+
+    public void add(int[] array) {
+        for ( int value : array ) {
+            add(value);
+        }
+    }
+
+    public void add(DynaArray dynaArray) {
+        add(dynaArray.toArray());
+    }
+
+    public void add(LinkedList list) {
+        add(list.toArray());
+    }
 }

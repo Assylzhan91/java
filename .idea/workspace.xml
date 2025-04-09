@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bfb8cc-4c5a-4594-9488-23620a892320" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/language/programming/java/Example.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/language/programming/java/module_10_inhertance_and_polymorphism/LateBinding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/language/programming/java/module_10_inhertance_and_polymorphism/WhichMethodIsInvoked.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/language/programming/java/somepackage/BaseDataStructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/structures/BaseDataStructure.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/language/programming/java/structures/DynaArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/structures/DynaArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/language/programming/java/structures/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/structures/LinkedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "module-11-006",
+    "git-widget-placeholder": "module-11-007",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/asylzanbajmuratov/test-projects/java",
     "node.js.detected.package.eslint": "true",
@@ -262,7 +262,8 @@
       <workItem from="1742405291000" duration="1896000" />
       <workItem from="1743090503762" duration="1588000" />
       <workItem from="1744043209323" duration="4592000" />
-      <workItem from="1744128850917" duration="3692000" />
+      <workItem from="1744128850917" duration="4428000" />
+      <workItem from="1744211492372" duration="1749000" />
     </task>
     <servers />
   </component>
@@ -301,6 +302,10 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/language/programming/java/module_10_inhertance_and_polymorphism/CompositionInsteadOfInheritance.java</url>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/language/programming/java/structures/BaseDataStructure.java</url>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

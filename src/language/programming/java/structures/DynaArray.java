@@ -1,7 +1,5 @@
 package language.programming.java.structures;
 
-import language.programming.java.somepackage.BaseDataStructure;
-
 import java.util.Arrays;
 
 public final class DynaArray  extends BaseDataStructure {
@@ -15,6 +13,7 @@ public final class DynaArray  extends BaseDataStructure {
         result = new int[size];
     }
 
+    @Override
     public void add(int value) {
         if (count == result.length) {
             grow(result.length == 0 ? 5 : result.length * 2);
@@ -22,10 +21,12 @@ public final class DynaArray  extends BaseDataStructure {
         result[count++] = value;
     }
 
+    @Override
     public void add(int[] array) {
         add(array, array.length);
     }
 
+    @Override
     public void add(DynaArray dynaArray) {
         add(dynaArray.result, dynaArray.count);
     }
@@ -37,11 +38,7 @@ public final class DynaArray  extends BaseDataStructure {
         System.arraycopy(array, 0, result, count, length);
         count += length;
     }
-
-    public void add(LinkedList list) {
-        add(list.toArray());
-    }
-
+    
     private void grow(int newLength) {
         int[] newArray = new int[newLength];
         System.arraycopy(result, 0, newArray, 0, result.length);
