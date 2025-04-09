@@ -20,8 +20,6 @@
 
 package language.programming.java.structures;
 
-import language.programming.java.somepackage.BaseDataStructure;
-
 /**
  * @Assylzhan Baimuratov
  **/
@@ -30,16 +28,6 @@ public final class LinkedList extends BaseDataStructure {
     Item first;
     Item last;
 
-    public void add(int value) {
-        Item item = new Item(value);
-        if (first == null) {
-            first = last = item;
-        } else {
-            last.next = item;
-            last = item;
-        }
-        count++;
-    }
 
     @Override
     public void clear() {
@@ -114,17 +102,22 @@ public final class LinkedList extends BaseDataStructure {
        return findPair(value) != null;
     }
 
+    @Override
+    public void add(int value) {
+        Item item = new Item(value);
+        if (first == null) {
+            first = last = item;
+        } else {
+            last.next = item;
+            last = item;
+        }
+        count++;
+    }
 
     public void add(DynaArray dynaArray) {
         add(dynaArray.toArray());
     }
-
-    public void add(int[] array) {
-        for (int i = 0; i < array.length; i++) {
-            add(array[i]);
-        }
-    }
-
+    @Override
     public void add(LinkedList secondList) {
         if (secondList.count > 0) {
             if (first == null) {
