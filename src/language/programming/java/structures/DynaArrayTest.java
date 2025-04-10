@@ -10,7 +10,7 @@ class DynaArrayTest {
         System.out.println(dynaArray1.contains(3));
         System.out.println(dynaArray1.contains(0));
         System.out.println(dynaArray1.contains(4));
-        System.out.print("size " + dynaArray1.size());
+        System.out.println("size " + dynaArray1.size());
         System.out.println(dynaArray1);
         /*dynaArray1.add(0);
         dynaArray1.add(1);
