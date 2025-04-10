@@ -31,6 +31,7 @@ public final class DynaArray  extends BaseDataStructure {
         add(dynaArray.result, dynaArray.count);
     }
 
+
     public void add(int[] array, int length) {
         if (result.length - count < length) {
             grow(count + length);
@@ -62,6 +63,7 @@ public final class DynaArray  extends BaseDataStructure {
         return stringBuilder.append(']').toString();
     }
 
+    @Override
     public boolean remove(int value) {
         int index = findIndex(value);
         if (index != -1 ) {
@@ -88,9 +90,9 @@ public final class DynaArray  extends BaseDataStructure {
         return -1;
     }
 
+    @Override
     public boolean contains(int value) {
         return  findIndex(value) != -1;
     }
-
 
 }
