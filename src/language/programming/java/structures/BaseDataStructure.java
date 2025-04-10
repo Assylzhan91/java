@@ -23,7 +23,7 @@ package language.programming.java.structures;
 /**
  * @Assylzhan Baimuratov
  **/
-public class BaseDataStructure {
+public abstract class BaseDataStructure {
 
     protected int count;
 
@@ -31,9 +31,7 @@ public class BaseDataStructure {
 
     public void clear() {count = 0;}
 
-    public void add(int value) {
-
-    }
+    public abstract void add(int value);
 
     public void add(int[] array) {
         for ( int value : array ) {
