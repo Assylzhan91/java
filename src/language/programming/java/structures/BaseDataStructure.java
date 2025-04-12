@@ -23,7 +23,7 @@ package language.programming.java.structures;
 /**
  * @Assylzhan Baimuratov
  **/
-public abstract class BaseDataStructure extends DataStructure {
+public abstract class BaseDataStructure implements DataStructure {
 
     protected int count;
 
