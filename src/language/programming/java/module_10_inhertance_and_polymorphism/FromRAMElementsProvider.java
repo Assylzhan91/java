@@ -23,19 +23,23 @@ package language.programming.java.module_10_inhertance_and_polymorphism;
 /**
  * @Assylzhan Baimuratov
  **/
-public class SumCalculator {
+public class FromRAMElementsProvider implements ArrayElementsProvider{
 
-    private static long sum(ArrayElementsProvider array) {
-        long sum = 0;
-        while (array.hasMoreElements()) {
-            sum += array.nextElement();
-        }
-        return sum;
+    private int[] array;
+
+    private int index;
+
+    public FromRAMElementsProvider(int[] array) {
+        this.array = array;
     }
 
-    public static void main(String[] args) {
-        ArrayElementsProvider arrayElementsProvider = new FromRAMElementsProvider(new int[]{1, 2, 3, 4, 5});
-        System.out.println(sum(arrayElementsProvider));
+    @Override
+    public boolean hasMoreElements() {
+        return index < array.length;
     }
 
+    @Override
+    public int nextElement() {
+        return array[index++];
+    }
 }
