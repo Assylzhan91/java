@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bfb8cc-4c5a-4594-9488-23620a892320" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/language/programming/java/module_10_inhertance_and_polymorphism/WhatIsPolymorphism.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/language/programming/java/module_10_inhertance_and_polymorphism/ArrayElementsProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/language/programming/java/module_10_inhertance_and_polymorphism/SumCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +81,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "module-11-013",
+    "git-widget-placeholder": "module-11-015",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/asylzanbajmuratov/test-projects/java",
     "node.js.detected.package.eslint": "true",
@@ -269,7 +270,9 @@
       <workItem from="1744476258805" duration="2256000" />
       <workItem from="1744554171359" duration="3727000" />
       <workItem from="1744647361904" duration="1555000" />
-      <workItem from="1744733139408" duration="3103000" />
+      <workItem from="1744733139408" duration="3963000" />
+      <workItem from="1744772817097" duration="878000" />
+      <workItem from="1744817689732" duration="1403000" />
     </task>
     <servers />
   </component>
