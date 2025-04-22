@@ -25,7 +25,7 @@ package language.programming.java.module_10_inhertance_and_polymorphism;
  **/
 public class FromRAMElementsProvider implements ArrayElementsProvider{
 
-    private int[] array;
+    private final int[] array;
 
     private int index;
 

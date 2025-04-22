@@ -34,7 +34,8 @@ public class SumCalculator {
     }
 
     public static void main(String[] args) {
-        ArrayElementsProvider arrayElementsProvider = new FromRAMElementsProvider(new int[]{1, 2, 3, 4, 5});
+        //ArrayElementsProvider arrayElementsProvider = new FromRAMElementsProvider(new int[]{1, 2, 3, 4, 5});
+        ArrayElementsProvider arrayElementsProvider = new FromClassPathResourcesArrayElementsProvider("numbers.txt");
         System.out.println(sum(arrayElementsProvider));
     }
 
