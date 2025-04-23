@@ -26,8 +26,12 @@ package module_11_polymorphism;
 public class GetClassUsage {
     public static void main(String[] args) {
         Object o = new Child();
-
-        System.out.println(o.getClass());
+        boolean result = o instanceof Child;
+        System.out.println(result);
+        System.out.println(o instanceof Child);
+        if (o instanceof Child) {
+            System.out.println("Child");
+        }
     }
 
     private static class GrandParent{}
