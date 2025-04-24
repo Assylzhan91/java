@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bfb8cc-4c5a-4594-9488-23620a892320" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/module_11_polymorphism/MarkerInterfaceExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/module_11_polymorphism/WhyInstanceOfIsBadPractice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/module_11_polymorphism/WhyInstanceOfIsBadPractice.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +66,7 @@
     "Application.JavaLang.executor": "Run",
     "Application.LateBinding.executor": "Run",
     "Application.LinkedListTest.executor": "Run",
+    "Application.MarkerInterfaceExample.executor": "Run",
     "Application.MethodInheritance.executor": "Run",
     "Application.MethodSearchAlgorithm.executor": "Run",
     "Application.ObjectClone.executor": "Run",
@@ -83,7 +84,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "module-11-025",
+    "git-widget-placeholder": "module-11-027",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/asylzanbajmuratov/test-projects/java",
     "node.js.detected.package.eslint": "true",
@@ -115,20 +116,7 @@
       <recent name="language.programming.java.module_10_inhertance_and_polymorphism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WhyInstanceOfIsBadPractice">
-    <configuration name="DynaArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="language.programming.java.structures.DynaArrayTest" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="language.programming.java.structures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MarkerInterfaceExample">
     <configuration name="GetClassUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="module_11_polymorphism.GetClassUsage" />
       <module name="java" />
@@ -148,6 +136,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="language.programming.java.structures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarkerInterfaceExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="module_11_polymorphism.MarkerInterfaceExample" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="module_11_polymorphism.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,11 +184,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MarkerInterfaceExample" />
         <item itemvalue="Application.WhyInstanceOfIsBadPractice" />
         <item itemvalue="Application.GetClassUsage" />
         <item itemvalue="Application.SumCalculator" />
         <item itemvalue="Application.LinkedListTest" />
-        <item itemvalue="Application.DynaArrayTest" />
       </list>
     </recent_temporary>
   </component>
@@ -278,7 +279,7 @@
       <workItem from="1744858030606" duration="1200000" />
       <workItem from="1745338055112" duration="7432000" />
       <workItem from="1745418753835" duration="3995000" />
-      <workItem from="1745507019910" duration="1736000" />
+      <workItem from="1745507019910" duration="2191000" />
     </task>
     <servers />
   </component>
