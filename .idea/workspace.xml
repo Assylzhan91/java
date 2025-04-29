@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bfb8cc-4c5a-4594-9488-23620a892320" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/module_11_polymorphism/CustomMarkerInterfaceUsage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/language/programming/java/structures/DataStorageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/structures/DataStorageTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +55,8 @@
     "Application.CompositionInsteadOfInheritance.executor": "Run",
     "Application.ConstructorAlternative.executor": "Run",
     "Application.ConstructorInvocationOrder.executor": "Run",
-    "Application.CustomMarkerInterfaceUsage.executor": "Debug",
+    "Application.CustomMarkerInterfaceUsage.executor": "Run",
+    "Application.DataStorageTest.executor": "Run",
     "Application.DynaArrayDebugDemonstration.executor": "Run",
     "Application.DynaArrayTest.executor": "Run",
     "Application.EachClassHasParentRule.executor": "Run",
@@ -85,7 +86,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "module-11-028",
+    "git-widget-placeholder": "module-12-003",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/asylzanbajmuratov/test-projects/java",
     "node.js.detected.package.eslint": "true",
@@ -117,13 +118,26 @@
       <recent name="language.programming.java.module_10_inhertance_and_polymorphism" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CustomMarkerInterfaceUsage">
+  <component name="RunManager" selected="Application.DataStorageTest">
     <configuration name="CustomMarkerInterfaceUsage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="module_11_polymorphism.CustomMarkerInterfaceUsage" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="module_11_polymorphism.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataStorageTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="language.programming.java.structures.DataStorageTest" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="language.programming.java.structures.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,19 +171,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="language.programming.java.module_10_inhertance_and_polymorphism.SumCalculator" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="language.programming.java.module_10_inhertance_and_polymorphism.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WhyInstanceOfIsBadPractice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="module_11_polymorphism.WhyInstanceOfIsBadPractice" />
       <module name="java" />
@@ -185,11 +186,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DataStorageTest" />
         <item itemvalue="Application.CustomMarkerInterfaceUsage" />
         <item itemvalue="Application.MarkerInterfaceExample" />
         <item itemvalue="Application.WhyInstanceOfIsBadPractice" />
         <item itemvalue="Application.GetClassUsage" />
-        <item itemvalue="Application.SumCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -281,6 +282,10 @@
       <workItem from="1745338055112" duration="7432000" />
       <workItem from="1745418753835" duration="3995000" />
       <workItem from="1745507019910" duration="2191000" />
+      <workItem from="1745552418707" duration="609000" />
+      <workItem from="1745859695367" duration="1488000" />
+      <workItem from="1745894459807" duration="606000" />
+      <workItem from="1745939177648" duration="886000" />
     </task>
     <servers />
   </component>
