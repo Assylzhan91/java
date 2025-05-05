@@ -2,7 +2,7 @@ package language.programming.java.structures;
 
 import java.util.Arrays;
 
-public final class DynaArray  extends BaseDataStructure {
+public final class DynaArray extends BaseDataStructure {
     private int[] result;
 
     public DynaArray() {
@@ -31,7 +31,6 @@ public final class DynaArray  extends BaseDataStructure {
         add(dynaArray.result, dynaArray.count);
     }
 
-
     public void add(int[] array, int length) {
         if (result.length - count < length) {
             grow(count + length);
@@ -39,7 +38,7 @@ public final class DynaArray  extends BaseDataStructure {
         System.arraycopy(array, 0, result, count, length);
         count += length;
     }
-    
+
     private void grow(int newLength) {
         int[] newArray = new int[newLength];
         System.arraycopy(result, 0, newArray, 0, result.length);
@@ -66,7 +65,7 @@ public final class DynaArray  extends BaseDataStructure {
     @Override
     public boolean remove(int value) {
         int index = findIndex(value);
-        if (index != -1 ) {
+        if (index != -1) {
             removeByIndex(index);
             return true;
         }
@@ -77,11 +76,10 @@ public final class DynaArray  extends BaseDataStructure {
         if (index < count - 1) {
             System.arraycopy(result, index + 1, result, index, count - index - 1);
         }
-
         count--;
     }
 
-    private int findIndex(int value){
+    private int findIndex(int value) {
         for (int i = 0; i < count; i++) {
             if (result[i] == value) {
                 return i;
@@ -92,7 +90,7 @@ public final class DynaArray  extends BaseDataStructure {
 
     @Override
     public boolean contains(int value) {
-        return  findIndex(value) != -1;
+        return findIndex(value) != -1;
     }
 
 }
