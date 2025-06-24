@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bfb8cc-4c5a-4594-9488-23620a892320" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/language/programming/java/structures/StackBasedOnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/language/programming/java/structures/BasedOnArrayDataStorage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/language/programming/java/structures/DataStorageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/structures/DataStorageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/language/programming/java/structures/QueueBasedOnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/structures/QueueBasedOnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/language/programming/java/structures/StackBasedOnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/structures/StackBasedOnArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +89,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "module-12-008",
+    "git-widget-placeholder": "module-12-009",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/asylzanbajmuratov/test-projects/java",
     "node.js.detected.package.eslint": "true",
@@ -289,6 +291,7 @@
       <workItem from="1745894459807" duration="606000" />
       <workItem from="1745939177648" duration="4971000" />
       <workItem from="1746458965678" duration="8769000" />
+      <workItem from="1750778688475" duration="2201000" />
     </task>
     <servers />
   </component>
