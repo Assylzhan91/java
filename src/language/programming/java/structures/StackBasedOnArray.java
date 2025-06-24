@@ -32,7 +32,7 @@ public final class StackBasedOnArray extends BasedOnArrayDataStorage {
     public StackBasedOnArray(int size) {
         super(size);
     }
-
+/*
     @Override
     public int get() {
         if (size > 0) {;
@@ -40,5 +40,10 @@ public final class StackBasedOnArray extends BasedOnArrayDataStorage {
         } else {
             return 0;
         }
+    }*/
+
+    @Override
+    protected int getIfNotEmp() {
+        return array[--size];
     }
 }
