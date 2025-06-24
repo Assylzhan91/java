@@ -23,30 +23,14 @@ package language.programming.java.structures;
 /**
  * @Assylzhan Baimuratov
  **/
-public class QueueBasedOnArray implements DataStorage {
-    private int[] array;
-    private int size;
+public final class QueueBasedOnArray extends BasedOnArrayDataStorage {
 
     public QueueBasedOnArray() {
         this(5);
     }
 
     public QueueBasedOnArray(int size) {
-        array = new int[size];
-    }
-
-    @Override
-    public void add(int value) {
-        if (size == array.length) {
-            grow(array.length == 0 ? 5 : array.length * 2);
-        }
-        array[size++] = value;
-    }
-
-    private void grow(int newLength) {
-        int[] newArray = new int[newLength];
-        System.arraycopy(array, 0, newArray, 0, array.length);
-        array = newArray;
+        super(size);
     }
 
     @Override
@@ -61,8 +45,4 @@ public class QueueBasedOnArray implements DataStorage {
         }
     }
 
-    @Override
-    public int size() {
-        return size;
-    }
 }

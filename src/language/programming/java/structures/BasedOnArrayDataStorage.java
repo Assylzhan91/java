@@ -23,22 +23,30 @@ package language.programming.java.structures;
 /**
  * @Assylzhan Baimuratov
  **/
-public final class StackBasedOnArray extends BasedOnArrayDataStorage {
+public abstract class BasedOnArrayDataStorage implements DataStorage{
+    protected int[] array;
+    protected int size;
 
-    public StackBasedOnArray() {
-        this(5);
-    }
-
-    public StackBasedOnArray(int size) {
-        super(size);
+    public BasedOnArrayDataStorage(int size) {
+        array = new int[size];
     }
 
     @Override
-    public int get() {
-        if (size > 0) {;
-            return array[--size];
-        } else {
-            return 0;
+    public final void add(int value) {
+        if (size == array.length) {
+            grow(array.length == 0 ? 5 : array.length * 2);
         }
+        array[size++] = value;
+    }
+
+    private void grow(int newLength) {
+        int[] newArray = new int[newLength];
+        System.arraycopy(array, 0, newArray, 0, array.length);
+        array = newArray;
+    }
+
+    @Override
+    public final int size() {
+        return size;
     }
 }
