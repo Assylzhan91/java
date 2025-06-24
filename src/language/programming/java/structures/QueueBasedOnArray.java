@@ -33,6 +33,7 @@ public final class QueueBasedOnArray extends BasedOnArrayDataStorage {
         super(size);
     }
 
+    /*
     @Override
     public int get() {
         if (size > 0) {
@@ -43,6 +44,14 @@ public final class QueueBasedOnArray extends BasedOnArrayDataStorage {
         } else {
             return 0;
         }
+    }*/
+
+    @Override
+    protected int getIfNotEmp() {
+        int result = array[0];
+        System.arraycopy(array, 1, array, 0, array.length - 1);
+        size--;
+        return result;
     }
 
 }

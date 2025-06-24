@@ -46,6 +46,17 @@ public abstract class BasedOnArrayDataStorage implements DataStorage{
     }
 
     @Override
+    public int get() {
+        if (size > 0) {;
+            return getIfNotEmp();
+        } else {
+            return 0;
+        }
+    }
+
+    protected abstract int getIfNotEmp();
+
+    @Override
     public final int size() {
         return size;
     }
