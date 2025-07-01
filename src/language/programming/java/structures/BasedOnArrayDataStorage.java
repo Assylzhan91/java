@@ -50,9 +50,11 @@ public abstract class BasedOnArrayDataStorage implements DataStorage{
         if (size > 0) {;
             return getIfNotEmp();
         } else {
-            return 0;
+            throw creaRuntimeException();
         }
     }
+
+    protected abstract RuntimeException creaRuntimeException();
 
     protected abstract int getIfNotEmp();
 
