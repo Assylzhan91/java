@@ -23,9 +23,8 @@ package language.programming.java.structures;
 /**
  * @Assylzhan Baimuratov
  **/
-public abstract class BasedOnArrayDataStorage implements DataStorage{
+public abstract class BasedOnArrayDataStorage extends BaseDataStorage{
     protected int[] array;
-    protected int size;
 
     public BasedOnArrayDataStorage(int size) {
         array = new int[size];
@@ -58,8 +57,4 @@ public abstract class BasedOnArrayDataStorage implements DataStorage{
 
     protected abstract int getIfNotEmp();
 
-    @Override
-    public final int size() {
-        return size;
-    }
 }
