@@ -33,6 +33,11 @@ public final class QueueBasedOnArray extends BasedOnArrayDataStorage {
         super(size);
     }
 
+    @Override
+    protected RuntimeException creaRuntimeException() {
+        return new RuntimeException("Queue is empty");
+    }
+
     /*
     @Override
     public int get() {
@@ -40,11 +45,12 @@ public final class QueueBasedOnArray extends BasedOnArrayDataStorage {
             int result = array[0];
             System.arraycopy(array, 1, array, 0, array.length - 1);
             size--;
-            return result;
+            throw RuntimeException("Queue is empty");
         } else {
             return 0;
         }
     }*/
+
 
     @Override
     protected int getIfNotEmp() {
