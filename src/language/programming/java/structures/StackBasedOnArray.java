@@ -25,12 +25,8 @@ package language.programming.java.structures;
  **/
 public final class StackBasedOnArray extends BasedOnArrayDataStorage {
 
-    public StackBasedOnArray() {
-        this(5);
-    }
-
-    public StackBasedOnArray(int size) {
-        super(size);
+     public StackBasedOnArray() {
+        super();
     }
 
     @Override

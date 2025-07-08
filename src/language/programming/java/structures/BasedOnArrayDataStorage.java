@@ -30,6 +30,10 @@ public abstract class BasedOnArrayDataStorage extends BaseDataStorage{
         array = new int[size];
     }
 
+    public BasedOnArrayDataStorage() {
+        array = new int[size];
+    }
+
     @Override
     public final void add(int value) {
         if (size == array.length) {

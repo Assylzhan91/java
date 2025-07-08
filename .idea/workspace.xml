@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bfb8cc-4c5a-4594-9488-23620a892320" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/language/programming/java/structures/BaseDataStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/language/programming/java/structures/BasedOnLinkedListDataStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/language/programming/java/structures/QueueBasedOnLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/language/programming/java/structures/BaseDataStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/structures/BaseDataStorage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/language/programming/java/structures/BasedOnArrayDataStorage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/structures/BasedOnArrayDataStorage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/language/programming/java/structures/DataStorageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/structures/DataStorageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/language/programming/java/structures/QueueBasedOnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/structures/QueueBasedOnArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/language/programming/java/structures/StackBasedOnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/structures/StackBasedOnArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +40,10 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -86,7 +96,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "module-12-014",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/asylzanbajmuratov/test-projects/java",
     "node.js.detected.package.eslint": "true",
@@ -289,7 +299,11 @@
       <workItem from="1745939177648" duration="4971000" />
       <workItem from="1746458965678" duration="8769000" />
       <workItem from="1750778688475" duration="3684000" />
-      <workItem from="1751384301697" duration="2086000" />
+      <workItem from="1751384301697" duration="3216000" />
+      <workItem from="1751389535189" duration="3000" />
+      <workItem from="1751510778113" duration="3181000" />
+      <workItem from="1751557401510" duration="5307000" />
+      <workItem from="1751945220327" duration="1754000" />
     </task>
     <servers />
   </component>
@@ -339,8 +353,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/language/programming/java/structures/DataStorageTest.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="28" />
+          <line>29</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
