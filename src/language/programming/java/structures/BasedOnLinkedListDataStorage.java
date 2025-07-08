@@ -23,12 +23,34 @@ package language.programming.java.structures;
 /**
  * @Assylzhan Baimuratov
  **/
-public abstract class BaseDataStorage implements DataStorage {
+public abstract class  BasedOnLinkedListDataStorage extends BaseDataStorage {
 
-    protected int size;
+    protected Item first;
+    protected Item last;
 
     @Override
-    public final int size() {
-        return size;
+    public final void add(int value) {
+        Item item = new Item(value);
+        if (first == null) {
+            first = last = item;
+        } else {
+            last.next = item;
+            last = item;
+        }
+        size++;
+    }
+
+    /**
+     * @Assylzhan Baimuratov dfsfsdfds
+     * sfsdfs fsdf sdfs
+     * @hello how's going dude
+     **/
+    protected static class Item {
+        protected int value;
+        protected Item next;
+
+        protected Item(int value) {
+            this.value = value;
+        }
     }
 }

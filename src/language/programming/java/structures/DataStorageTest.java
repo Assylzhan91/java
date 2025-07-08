@@ -27,7 +27,7 @@ import java.util.Arrays;
  **/
 public class DataStorageTest {
     public static void main(String[] args) {
-        DataStorage dataStorageQueue = new QueueBasedOnArray(); // new Stack() or new Queue()
+        DataStorage dataStorageQueue = new QueueBasedOnLinkedList(); // new Stack() or new Queue()
         DataStorage dataStorageStack = new StackBasedOnArray(); // new Stack() or new Queue()
 
         for (int i = 0; i < 5; i++) {

@@ -1,4 +1,4 @@
-/*
+/**
  * Learning JAVA Programming Language
  *
  * Copyright 2024 Learning Java
@@ -23,12 +23,21 @@ package language.programming.java.structures;
 /**
  * @Assylzhan Baimuratov
  **/
-public abstract class BaseDataStorage implements DataStorage {
+public final class QueueBasedOnLinkedList extends BasedOnLinkedListDataStorage{
 
-    protected int size;
 
     @Override
-    public final int size() {
-        return size;
+    public int get() {
+        if (size > 0) {
+            int result = first.value;
+            first = first.next;
+            size--;
+            if (size == 0) {
+                last = null;
+            }
+            return result;
+        }else {
+            return 0;
+        }
     }
 }
