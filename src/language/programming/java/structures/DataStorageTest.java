@@ -31,14 +31,14 @@ public class DataStorageTest {
         DataStorage dataStorageStack = new StackBasedOnArray(); // new Stack() or new Queue()
 
         for (int i = 0; i < 5; i++) {
-            dataStorageQueue.add(i);
+            dataStorageStack.add(i);
         }
 
         //System.out.println("queue array " + dataStorage2.size());
         // 4 3 2 1 0 for Stack
         // 0 1 2 3 4 for Queue
-        while (dataStorageQueue.size() > 0) {
-            System.out.print(dataStorageQueue.get() + " ");
+        while (dataStorageStack.size() > 0) {
+            System.out.print(dataStorageStack.get() + " ");
         }
 
         System.out.println();
