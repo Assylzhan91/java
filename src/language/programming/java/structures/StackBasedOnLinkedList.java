@@ -23,12 +23,12 @@ package language.programming.java.structures;
 /**
  * @Assylzhan Baimuratov
  **/
-public final class QueueBasedOnLinkedList extends BasedOnLinkedListDataStorage{
-
+public final class StackBasedOnLinkedList extends BasedOnLinkedListDataStorage{
 
     @Override
     protected void addNextItem(Item item) {
-        last.next = item;
-        last = item;
+        item.next = first;
+        first = item;
     }
+
 }
