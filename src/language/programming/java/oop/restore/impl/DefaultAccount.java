@@ -18,13 +18,38 @@
  *
  */
 
-package language.programming.java.oop.restore;
+package language.programming.java.oop.restore.impl;
+
+import language.programming.java.oop.restore.Account;
 
 /**
  * @Assylzhan Baimuratov
  **/
-public interface AccountRepository {
-    Account findByEmail(String email);
+public class DefaultAccount implements Account {
 
-    void update(Account account);
+    private String email;
+
+    private boolean active;
+
+    private String code;
+
+    public DefaultAccount(String email, boolean active) {
+        this.email = email;
+        this.active = active;
+    }
+
+    @Override
+    public boolean isNotActive() {
+        return !active;
+    }
+
+    @Override
+    public void setCode(String code) {
+        this.code = code;
+    }
+
+
+    public String getEmail(){
+        return email;
+    }
 }

@@ -18,13 +18,17 @@
  *
  */
 
-package language.programming.java.oop.restore;
+package language.programming.java.oop.restore.impl;
+
+import language.programming.java.oop.restore.EmailService;
 
 /**
  * @Assylzhan Baimuratov
  **/
-public interface AccountRepository {
-    Account findByEmail(String email);
+public final class StubEmailService implements EmailService {
 
-    void update(Account account);
+    @Override
+    public void sendPasswordResetEmail(String email, String code) {
+        System.out.println("Send code=" + code + " to email=" + email);
+    }
 }

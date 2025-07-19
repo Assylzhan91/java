@@ -18,13 +18,21 @@
  *
  */
 
-package language.programming.java.oop.restore;
+package language.programming.java.oop.restore.impl;
+
+import language.programming.java.oop.restore.Account;
+import language.programming.java.oop.restore.AccountNotActiveHandler;
+
+import java.util.logging.Handler;
 
 /**
  * @Assylzhan Baimuratov
  **/
-public interface AccountRepository {
-    Account findByEmail(String email);
+public final class DisableAccountNotActiveHandler implements AccountNotActiveHandler {
 
-    void update(Account account);
+
+    @Override
+    public String handle(Account account) {
+        return  null;
+    }
 }
