@@ -48,7 +48,7 @@ public final class PasswordResetService {
 
     public String reset(String email) {
 
-        Account account = accountRepository.findByRepository(email);
+        Account account = accountRepository.findByEmail(email);
         if (account == null) {
             return accountNotFoundByEmailHandler.handle(email);
         } else if (account.isNotActive()) {
