@@ -18,13 +18,17 @@
  *
  */
 
-package language.programming.java.oop.restore;
+package language.programming.java.oop.restore.impl;
+
+import language.programming.java.oop.restore.AccountNotFoundByEmailHandler;
 
 /**
  * @Assylzhan Baimuratov
  **/
-public interface AccountRepository {
-    Account findByEmail(String email);
+public class DisplayAccountNotFoundByEmailHandler implements AccountNotFoundByEmailHandler {
 
-    void update(Account account);
+    @Override
+    public String handle(String email) {
+        return "account_not_found_by_email=" + email;
+    }
 }

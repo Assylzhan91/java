@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bfb8cc-4c5a-4594-9488-23620a892320" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/language/programming/java/oop/restore/Account.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/language/programming/java/oop/restore/AccountNotFoundByEmailHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/language/programming/java/oop/restore/AccountRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/language/programming/java/oop/restore/PasswordResetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/language/programming/java/oop/restore/impl/DefaultAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/language/programming/java/oop/restore/impl/DefaultVerificationCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/language/programming/java/oop/restore/impl/DisableAccountNotActiveHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/language/programming/java/oop/restore/impl/DisplayAccountNotFoundByEmailHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/language/programming/java/oop/restore/impl/FormRAMAccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/language/programming/java/oop/restore/impl/StubEmailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/language/programming/java/oop/restore/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/oop/restore/AccountRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -309,7 +312,7 @@
       <workItem from="1752592358339" duration="2489000" />
       <workItem from="1752635572712" duration="608000" />
       <workItem from="1752768955004" duration="3344000" />
-      <workItem from="1752899863016" duration="4355000" />
+      <workItem from="1752899863016" duration="13239000" />
     </task>
     <servers />
   </component>
