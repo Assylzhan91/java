@@ -1,0 +1,66 @@
+/*
+ * Learning JAVA Programming Language
+ *
+ * Copyright 2024 Learning Java
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ *
+ */
+
+package language.programming.java.oop.restore;
+
+import java.util.concurrent.CompletableFuture;
+
+/**
+ * @Assylzhan Baimuratov
+ **/
+public final class PasswordResetService {
+    private final AccountRepository accountRepository;
+    private final AccountNotFoundByEmailHandler accountNotFoundByEmailHandler;
+    private final AccountNotActiveHandler accountNotActiveHandler;
+    private final VerificationCodeGenerator verificationCodeGenerator;
+    private final EmailService emailService;
+
+    public PasswordResetService(
+            AccountRepository accountRepository,
+            AccountNotFoundByEmailHandler accountNotFoundByEmailHandler,
+            AccountNotActiveHandler accountNotActiveHandler,
+            VerificationCodeGenerator verificationCodeGenerator,
+            EmailService emailService
+    ) {
+        this.accountRepository = accountRepository;
+        this.accountNotFoundByEmailHandler = accountNotFoundByEmailHandler;
+        this.accountNotActiveHandler = accountNotActiveHandler;
+        this.verificationCodeGenerator = verificationCodeGenerator;
+        this.emailService = emailService;
+    }
+
+    public String reset(String email) {
+
+        Account account = accountRepository.findByRepository(email);
+        if (account == null) {
+            return accountNotFoundByEmailHandler.handle(email);
+        } else if (account.isNotActive()) {
+            String result = accountNotActiveHandler.handle(account);
+            if (result != null) {
+                return result;
+            }
+        }
+        String code = verificationCodeGenerator.generator();
+        account.setCode(code);
+        accountRepository.update(account);
+        emailService.sendPasswordResetEmail(email, code);
+        return "password_reset_successful.html";
+    }
+}
