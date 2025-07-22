@@ -20,8 +20,6 @@
 
 package language.programming.java.oop.restore;
 
-import java.util.concurrent.CompletableFuture;
-
 /**
  * @Assylzhan Baimuratov
  **/

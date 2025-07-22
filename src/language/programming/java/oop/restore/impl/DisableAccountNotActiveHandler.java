@@ -23,13 +23,10 @@ package language.programming.java.oop.restore.impl;
 import language.programming.java.oop.restore.Account;
 import language.programming.java.oop.restore.AccountNotActiveHandler;
 
-import java.util.logging.Handler;
-
 /**
  * @Assylzhan Baimuratov
  **/
 public final class DisableAccountNotActiveHandler implements AccountNotActiveHandler {
-
 
     @Override
     public String handle(Account account) {

@@ -19,8 +19,6 @@
  */
 
 package language.programming.java.oop.restore.impl;
-
-import language.programming.java.oop.restore.AccountRepository;
 import language.programming.java.oop.restore.PasswordResetService;
 
 /**
@@ -33,27 +31,23 @@ public final class PasswordResetServiceTest {
         PasswordResetServiceTest passwordResetServiceTest = new PasswordResetServiceTest(
                 new PasswordResetService(
                         new FormRAMAccountRepository(),
-                        new DisplayAccountNotFoundByEmailHandler(),
+                        new ShowAccessAccountNotFoundByEmailHandler(),
                         new DisableAccountNotActiveHandler(),
                         new DefaultVerificationCodeGenerator(),
                         new StubEmailService()
                 )
         );
-
         passwordResetServiceTest.test("test@gmail.com");
         passwordResetServiceTest.test("test1@gmail.com");
         passwordResetServiceTest.test("test2@gmail.com");
-
     }
 
     public PasswordResetServiceTest(PasswordResetService service) {
         this.service = service;
     }
 
-
     public void test(String email) {
         System.out.println(email + "->" + service.reset(email));
-
     }
 
 }
