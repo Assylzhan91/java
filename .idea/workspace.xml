@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bfb8cc-4c5a-4594-9488-23620a892320" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/language/programming/java/oop/restore/impl/PasswordResetServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/language/programming/java/oop/restore/impl/ShowAccessAccountNotFoundByEmailHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/language/programming/java/oop/restore/AccountNotFoundByEmailHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/oop/restore/AccountNotFoundByEmailHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/language/programming/java/oop/restore/PasswordResetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/oop/restore/PasswordResetService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/language/programming/java/oop/restore/impl/DisableAccountNotActiveHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/oop/restore/impl/DisableAccountNotActiveHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/language/programming/java/oop/restore/impl/PasswordResetServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/language/programming/java/oop/restore/impl/PasswordResetServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +83,7 @@
     "Application.ObjectClone.executor": "Run",
     "Application.ObjectDynaArray.executor": "Debug",
     "Application.ObjectHasCodeAndEquals.executor": "Run",
-    "Application.PasswordResetServiceTest.executor": "Run",
+    "Application.PasswordResetServiceTest.executor": "Debug",
     "Application.Solution.executor": "Run",
     "Application.SumCalculator.executor": "Run",
     "Application.SuperMethod.executor": "Run",
@@ -93,7 +96,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "create.test.in.the.same.root": "true",
-    "git-widget-placeholder": "module-13-05",
+    "git-widget-placeholder": "module-13-06",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/asylzanbajmuratov/test-projects/java",
     "node.js.detected.package.eslint": "true",
@@ -310,6 +313,7 @@
       <workItem from="1752635572712" duration="608000" />
       <workItem from="1752768955004" duration="3344000" />
       <workItem from="1752899863016" duration="16377000" />
+      <workItem from="1753197076892" duration="2883000" />
     </task>
     <servers />
   </component>
@@ -356,6 +360,10 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/module_11_polymorphism/WhyInstanceOfIsBadPractice.java</url>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/language/programming/java/oop/restore/impl/DisableAccountNotActiveHandler.java</url>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

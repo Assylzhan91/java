@@ -18,11 +18,15 @@
  *
  */
 
-package language.programming.java.oop.restore;
+package language.programming.java.oop.restore.impl;
+import language.programming.java.oop.restore.AccountNotFoundByEmailHandler;
 
-/**w
+/**
  * @Assylzhan Baimuratov
  **/
-public interface AccountNotFoundByEmailHandler {
-    String handle(String email);
+public class ShowAccessAccountNotFoundByEmailHandler implements AccountNotFoundByEmailHandler {
+    @Override
+    public String handle(String email) {
+        return "password_reset_successful.html";
+    }
 }
