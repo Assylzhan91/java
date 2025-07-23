@@ -19,8 +19,7 @@
  */
 
 package language.programming.java.oop.restore;
-
-import java.util.Arrays;
+import java.math.BigDecimal;
 
 /**
  * @Assylzhan Baimuratov
@@ -29,6 +28,7 @@ public class ProductTest {
     static Product[] products;
     public static void main(String[] args) {
         for ( Product product : products ) {
+            product.price = new BigDecimal("-22.5");
             System.out.println(product.name);
             System.out.println(product.description);
             System.out.println(product.price);
