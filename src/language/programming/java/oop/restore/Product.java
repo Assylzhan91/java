@@ -29,4 +29,16 @@ public class Product {
     public String name;
     public String description;
     public BigDecimal price;
+
+    BigDecimal getPrice() {
+        if (isNowWeekend()) {
+            return price.multiply(new BigDecimal("1.15"));
+        } else {
+            return price;
+        }
+    }
+
+    boolean isNowWeekend() {
+        return false;
+    }
 }
