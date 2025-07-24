@@ -18,27 +18,20 @@
  *
  */
 
-package language.programming.java.oop.restore;
-
-import java.math.BigDecimal;
+package language.programming.java.oop;
 
 /**
  * @Assylzhan Baimuratov
  **/
-public class Product {
-    public String name;
-    public String description;
-    public BigDecimal price;
+public class ProductTest {
+    static Product[] products;
 
-    BigDecimal getPrice() {
-        if (isNowWeekend()) {
-            return price.multiply(new BigDecimal("1.15"));
-        } else {
-            return price;
+    public static void main(String[] args) {
+        for (Product product : products) {
+
+            System.out.println(product.getName());
+            System.out.println(product.getDescription());
+            System.out.println(product.getPrice());
         }
-    }
-
-    boolean isNowWeekend() {
-        return false;
     }
 }
