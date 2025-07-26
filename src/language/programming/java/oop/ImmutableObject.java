@@ -23,10 +23,11 @@ package language.programming.java.oop;
 /**
  * @Assylzhan Baimuratov
  **/
-public class ReadOnlyObject {
-    private String value;
+public class ImmutableObject {
+    private final String value;
 
-    public ReadOnlyObject(String value) {
+
+    public ImmutableObject(String value) {
         this.value = value;
     }
 
