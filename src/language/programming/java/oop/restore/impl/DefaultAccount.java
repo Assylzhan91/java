@@ -27,9 +27,9 @@ import language.programming.java.oop.restore.Account;
  **/
 public class DefaultAccount implements Account {
 
-    private String email;
+    private final String email;
 
-    private boolean active;
+    private final boolean active;
 
     private String code;
 
