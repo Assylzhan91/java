@@ -25,7 +25,7 @@ import language.programming.java.oop.restore.PasswordResetService;
  * @Assylzhan Baimuratov
  **/
 public final class PasswordResetServiceTest {
-    private PasswordResetService service;
+    private final PasswordResetService service;
 
     public static void main(String[] args) {
         PasswordResetServiceTest passwordResetServiceTest = new PasswordResetServiceTest(
