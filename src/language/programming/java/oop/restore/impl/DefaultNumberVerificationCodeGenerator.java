@@ -27,15 +27,15 @@ import java.util.Random;
 /**
  * @Assylzhan Baimuratov
  **/
-public class DefaultVerificationCodeGenerator implements VerificationCodeGenerator {
+public class DefaultNumberVerificationCodeGenerator implements VerificationCodeGenerator {
     private final Random random = new Random();
-    private int length;
+    private final int length;
 
-    public DefaultVerificationCodeGenerator(int length) {
+    public DefaultNumberVerificationCodeGenerator(int length) {
         this.length = length;
     }
 
-    public DefaultVerificationCodeGenerator() {
+    public DefaultNumberVerificationCodeGenerator() {
         this(10);
     }
 

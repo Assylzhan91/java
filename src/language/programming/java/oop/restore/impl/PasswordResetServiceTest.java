@@ -33,7 +33,7 @@ public final class PasswordResetServiceTest {
                         new FormRAMAccountRepository(),
                         new ShowAccessAccountNotFoundByEmailHandler(),
                         new DisableAccountNotActiveHandler(),
-                        new DefaultVerificationCodeGenerator(),
+                        new DefaultNumberVerificationCodeGenerator(),
                         new StubEmailService()
                 )
         );
