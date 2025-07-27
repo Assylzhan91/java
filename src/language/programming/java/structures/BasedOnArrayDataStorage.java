@@ -50,7 +50,7 @@ public abstract class BasedOnArrayDataStorage extends BaseDataStorage{
 
     @Override
     public int get() {
-        if (size > 0) {;
+        if (size > 0) {
             return getIfNotEmp();
         } else {
             throw creaRuntimeException();
