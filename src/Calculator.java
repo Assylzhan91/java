@@ -36,4 +36,8 @@ public class Calculator {
     public int sub() {
         return  a - b;
     }
+
+    public int div() {
+        return  a - b;
+    }
 }

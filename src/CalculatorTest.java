@@ -26,5 +26,6 @@ public class CalculatorTest {
         Calculator calculator = new Calculator(4, 3);
         System.out.println(calculator.add());
         System.out.println(calculator.sub());
+        System.out.println(calculator.div());
     }
 }
