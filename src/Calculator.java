@@ -40,4 +40,8 @@ public class Calculator {
     public int div() {
         return  a - b;
     }
+
+    public int pow() {
+        return (int) Math.pow(a, b);
+    }
 }

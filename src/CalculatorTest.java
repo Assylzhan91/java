@@ -27,5 +27,6 @@ public class CalculatorTest {
         System.out.println(calculator.add());
         System.out.println(calculator.sub());
         System.out.println(calculator.div());
+        System.out.println(calculator.pow());
     }
 }
